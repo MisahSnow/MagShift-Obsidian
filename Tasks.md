@@ -20,6 +20,7 @@ kanban-plugin: board
 - [ ] Fix Rockets
 - [ ] Add Tutorial Level
 - [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
+- [ ] Add Indicators for when you get hit by a power up
 
 
 ## Next Week
