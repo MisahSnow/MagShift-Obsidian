@@ -1,0 +1,1 @@
+Beat Track within Time Limit, set Time Limit lower than required to finish track, have player collect pickups that Pause the Time limit

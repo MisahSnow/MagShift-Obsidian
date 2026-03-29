@@ -1,0 +1,1 @@
+Emits EMP Pulse Wave that disrupts other Racers Hover Systems causing them to fall to the ground

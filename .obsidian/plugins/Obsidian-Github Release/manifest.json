@@ -1,0 +1,10 @@
+{
+  "id": "github-releases-sync",
+  "name": "GitHub Releases Sync",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Keeps an Obsidian note in sync with links to releases from a GitHub repository.",
+  "author": "OpenAI Codex",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": false
+}

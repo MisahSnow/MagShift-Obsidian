@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"69bb26f9fb9e4d3b","type":"group","x":-720,"y":-480,"width":4180,"height":3120,"label":"Games in Genre"},
+		{"id":"a7d329f4c8e5410b","type":"group","x":1400,"y":-360,"width":1960,"height":1380,"color":"#3c5158","label":"F‑Zero X"},
+		{"id":"ccbffe85e02d57af","type":"group","x":-620,"y":-360,"width":1920,"height":1380,"color":"#513c58","label":"Wipeout Series"},
+		{"id":"d4b1d0c9e8f7a6b5","type":"group","x":-620,"y":1120,"width":1920,"height":1380,"color":"#5c4c3c","label":"Redout 1 + 2"},
+		{"id":"9f8e7d6c5b4a3210","type":"group","x":140,"y":1220,"width":940,"height":320,"color":"#9e9e9e","label":"Review"},
+		{"id":"b03e91e1742bd430","type":"group","x":400,"y":-260,"width":520,"height":320,"color":"#9e9e9e","label":"Review"},
+		{"id":"d26eb2110655748b","type":"group","x":-200,"y":-260,"width":480,"height":320,"color":"#adadad","label":"Gameplay"},
+		{"id":"f0c83a9de17456b0","type":"group","x":1820,"y":-260,"width":480,"height":320,"color":"#adadad","label":"Gameplay"},
+		{"id":"a1d94be0f28567c1","type":"group","x":2400,"y":-260,"width":480,"height":320,"color":"#9e9e9e","label":"Review"},
+		{"id":"1a2b3c4d5e6f7081","type":"group","x":-380,"y":1220,"width":480,"height":320,"color":"#adadad","label":"Gameplay"},
+		{"id":"ac2719cd7470cfcb","type":"file","file":"Research/Game Overview Notes/Why People Love Wipeout.md","x":-570,"y":120,"width":900,"height":660},
+		{"id":"f567187e108e4a7b","type":"file","file":"Research/Game Overview Notes/Wipeout Mechanics Overview.md","x":360,"y":120,"width":880,"height":840},
+		{"id":"2a3b4c5d6e7f8091","type":"file","file":"Research/Game Overview Notes/Why People Love Redout 1 + 2.md","x":-570,"y":1600,"width":900,"height":580},
+		{"id":"d4a61ef7bc9034de","type":"link","url":"https://www.youtube.com/watch?v=ec3Z4LXAXwM","x":1840,"y":-220,"width":440,"height":260},
+		{"id":"e5b72f08cd2145af","type":"link","url":"https://www.youtube.com/watch?v=iPZJrWfosV0","x":2420,"y":-220,"width":440,"height":260},
+		{"id":"c9f52bd6ea0832ad","type":"file","file":"Research/Game Overview Notes/F-Zero X Mechanics Overview.md","x":2410,"y":120,"width":880,"height":840},
+		{"id":"b8e41ac5d9f6721c","type":"file","file":"Research/Game Overview Notes/Why People Love F-Zero X.md","x":1480,"y":120,"width":900,"height":640},
+		{"id":"3b4c5d6e7f8091a2","type":"file","file":"Research/Game Overview Notes/Redout Mechanics Overview.md","x":360,"y":1600,"width":880,"height":840},
+		{"id":"4c5d6e7f8091a2b3","type":"link","url":"https://www.youtube.com/watch?v=2NEw3AktR4s","x":-362,"y":1258,"width":440,"height":260},
+		{"id":"5d6e7f8091a2b3c4","type":"link","url":"https://www.youtube.com/watch?v=-CgDAreXyKw","x":160,"y":1258,"width":440,"height":260},
+		{"id":"6e7f8091a2b3c4d5","type":"link","url":"https://www.youtube.com/watch?v=4WD4VwDqwqs","x":620,"y":1260,"width":440,"height":260},
+		{"id":"1484c7edfeef6078","type":"link","url":"https://www.youtube.com/watch?v=vPkM-t8eawc","x":440,"y":-220,"width":440,"height":260},
+		{"id":"3fb25f9f451214c2","type":"link","url":"https://www.youtube.com/watch?v=A8U2vYtlhmk","x":-180,"y":-220,"width":440,"height":260}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

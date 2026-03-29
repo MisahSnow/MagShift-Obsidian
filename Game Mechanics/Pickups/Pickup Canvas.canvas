@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"011c8ab65d9e7bad","type":"file","file":"Game Mechanics/Pickups/Art/EMPWaveArt.png","x":-220,"y":184,"width":176,"height":176},
+		{"id":"073c8dca650b60d1","type":"file","file":"Game Mechanics/Pickups/Descriptions/EMP Wave.md","x":12,"y":204,"width":400,"height":136},
+		{"id":"d2450834dd059579","type":"file","file":"Game Mechanics/Pickups/Art/IonBlastArt.png","x":-220,"y":440,"width":176,"height":176},
+		{"id":"ed14afc1e33dee99","type":"file","file":"Game Mechanics/Pickups/Art/MagMineArt.png","x":-220,"y":692,"width":176,"height":176},
+		{"id":"096f4949abb88a46","type":"file","file":"Game Mechanics/Pickups/Descriptions/Overcharge Boost.md","x":12,"y":960,"width":400,"height":180},
+		{"id":"8caaf84e779bfc41","type":"file","file":"Game Mechanics/Pickups/Art/OverchargeBoostArt.png","x":-220,"y":962,"width":176,"height":176},
+		{"id":"f48bdc8a4ea6a6fa","type":"file","file":"Game Mechanics/Pickups/Art/ShieldArt.png","x":-220,"y":1220,"width":176,"height":176},
+		{"id":"546afeacfc07ce0d","type":"file","file":"Game Mechanics/Pickups/Descriptions/Shield.md","x":12,"y":1226,"width":400,"height":164},
+		{"id":"4322b6e28bd72859","type":"file","file":"Game Mechanics/Pickups/Descriptions/Mag Mine.md","x":12,"y":670,"width":400,"height":220},
+		{"id":"4e27fb924aeceae0","type":"file","file":"Game Mechanics/Pickups/Art/PlasmaCannonArt.png","x":-220,"y":1480,"width":176,"height":176},
+		{"id":"b5690ecbfbc705ca","type":"file","file":"Game Mechanics/Pickups/Descriptions/Plasma Cannon.md","x":12,"y":1498,"width":400,"height":140},
+		{"id":"694614072df9e915","type":"file","file":"Game Mechanics/Pickups/Art/RocketsArt.png","x":620,"y":184,"width":176,"height":176},
+		{"id":"82e05f449400bb2b","type":"file","file":"Game Mechanics/Pickups/Art/IonBlastArt.png","x":620,"y":440,"width":176,"height":176,"color":"1"},
+		{"id":"4996c59daca3a947","type":"file","file":"Game Mechanics/Pickups/Art/MagMineArt.png","x":620,"y":692,"width":176,"height":176,"color":"1"},
+		{"id":"962a168beadda035","type":"file","file":"Game Mechanics/Pickups/Art/OverchargeBoostArt.png","x":620,"y":962,"width":176,"height":176,"color":"1"},
+		{"id":"3abd0098c8c79f4c","type":"file","file":"Game Mechanics/Pickups/Art/ShieldArt.png","x":620,"y":1220,"width":176,"height":176,"color":"1"},
+		{"id":"c7e4b8d93a1e42df","type":"file","file":"Game Mechanics/Pickups/Descriptions/Rockets.md","x":860,"y":182,"width":400,"height":180},
+		{"id":"f9d6a0c3b2841e57","type":"file","file":"Game Mechanics/Pickups/Descriptions/Missile.md","x":860,"y":428,"width":400,"height":200,"color":"1"},
+		{"id":"e9b3f5d0a2846c12","type":"file","file":"Game Mechanics/Pickups/Descriptions/Phase Shift.md","x":860,"y":1202,"width":400,"height":213,"color":"1"},
+		{"id":"c4e7d8a1f3925b6d","type":"file","file":"Game Mechanics/Pickups/Descriptions/Chain Lightning.md","x":860,"y":964,"width":400,"height":172,"color":"1"},
+		{"id":"a2f18b4c7d9340e1","type":"file","file":"Game Mechanics/Pickups/Descriptions/Scatter Shot.md","x":860,"y":680,"width":400,"height":200,"color":"1"},
+		{"id":"43bdf417e1ed2ed0","type":"file","file":"Game Mechanics/Pickups/Art/RepairArt.png","x":620,"y":1472,"width":176,"height":176},
+		{"id":"b3c8d2f19a7450e4","type":"file","file":"Game Mechanics/Pickups/Descriptions/Health.md","x":860,"y":1472,"width":400,"height":176},
+		{"id":"8397ef96b31b4771","type":"file","file":"Game Mechanics/Pickups/Descriptions/Ion Blast.md","x":12,"y":467,"width":400,"height":122}
+	],
+	"edges":[
+		{"id":"7d4e61113596b23d","toFloating":false,"fromNode":"011c8ab65d9e7bad","fromSide":"right","toNode":"073c8dca650b60d1","toSide":"left"},
+		{"id":"452e45325c59d771","fromNode":"d2450834dd059579","fromSide":"right","toNode":"8397ef96b31b4771","toSide":"left"},
+		{"id":"95640bab2c95711b","fromNode":"ed14afc1e33dee99","fromSide":"right","toNode":"4322b6e28bd72859","toSide":"left"},
+		{"id":"5bbd2995a559870c","fromNode":"8caaf84e779bfc41","fromSide":"right","toNode":"096f4949abb88a46","toSide":"left"},
+		{"id":"4ddd3d0afe1d50db","fromNode":"f48bdc8a4ea6a6fa","fromSide":"right","toNode":"546afeacfc07ce0d","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

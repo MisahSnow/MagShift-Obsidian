@@ -1,0 +1,1 @@
+An Automatic Plasma Cannon that fires 30 shots before depleting

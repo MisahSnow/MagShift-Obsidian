@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"f89718f930682aa5","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Varoxis, Main City.png","x":-185,"y":320,"width":870,"height":580},
+		{"id":"b65e4bcf267ea2d3","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Heavy Machinery/Catterpiller Grinder.png","x":740,"y":320,"width":387,"height":580},
+		{"id":"def0dd019b1255b5","type":"file","file":"World Building/Concept Art/Planets/Varoxis/“The Sky Falls Green on Varoxis”.mp3","x":133,"y":960,"width":727,"height":42},
+		{"id":"1e443f0c1bc9fba3","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Varoxis Mines.png","x":250,"y":1080,"width":877,"height":585},
+		{"id":"7a6a4769b9fd285e","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Varoxis Miners Closeup.png","x":-185,"y":1080,"width":390,"height":585},
+		{"id":"28c50c85f65e95ad","type":"file","file":"World Building/Lore/Planets/Varoxis.md","x":-185,"y":-280,"width":874,"height":540},
+		{"id":"4207a31836deb993","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Varoxis Champion/Varoxis Champion.png","x":760,"y":-280,"width":367,"height":551}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,1 @@
+Temporarily phases the racer out of normal space, allowing them to pass through mines and other vehicles without collision. While phased, weapons cannot be fired and steering becomes slightly less responsive.

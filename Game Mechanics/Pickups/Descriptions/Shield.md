@@ -1,0 +1,1 @@
+Creates a Bubble Shield around the Racers Hover Car deflecting 2 attacks before disappearing, also disappears over time

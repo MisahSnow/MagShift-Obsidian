@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"dc4064d2108040e3","type":"file","file":"World Building/Concept Art/Planets/Helios/Sand Worm.png","x":-300,"y":-360,"width":1201,"height":620}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

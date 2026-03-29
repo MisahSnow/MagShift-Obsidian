@@ -1,0 +1,10 @@
+{
+  "id": "website-full-page-viewer",
+  "name": "Website Full Page Viewer",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Open a website in a full-page Obsidian view with a simple address bar and desktop webview support.",
+  "author": "OpenAI Codex",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": true
+}
