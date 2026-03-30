@@ -35,7 +35,6 @@ kanban-plugin: board
 
 - [ ] Add steering threshold to keyboard controls
 - [ ] Fix Mag Mine
-- [ ] Add Volume Options to main menu and pause menu
 - [ ] Create Lore Guide for Helios
 - [ ] Create Lore Guide for Spectre Media
 
@@ -75,6 +74,7 @@ kanban-plugin: board
 - [x] Make it so pickups have a seperate audio source from the Engine
 - [x] Make overcharge boost slower
 - [ ] Check out Project Auditor
+- [ ] Add Volume Options to main menu and pause menu
 
 %% kanban:settings
 ```
