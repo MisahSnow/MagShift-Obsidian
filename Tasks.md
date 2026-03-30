@@ -21,6 +21,7 @@ kanban-plugin: board
 - [ ] Add Tutorial Level
 - [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
 - [ ] Add Indicators for when you get hit by a power up
+- [ ] Change Thrusters to blue
 
 
 ## Next Week
