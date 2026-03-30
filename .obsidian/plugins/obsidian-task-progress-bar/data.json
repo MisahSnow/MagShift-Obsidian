@@ -124,7 +124,7 @@
   "enableTaskGeniusIcons": false,
   "enablePriorityPicker": false,
   "enablePriorityKeyboardShortcuts": false,
-  "enableDatePicker": false,
+  "enableDatePicker": true,
   "recurrenceDateBase": "due",
   "taskFilter": {
     "enableTaskFilter": false,
@@ -158,7 +158,7 @@
     "incompletedDefaultHeadingName": "Incomplete Tasks"
   },
   "quickCapture": {
-    "enableQuickCapture": false,
+    "enableQuickCapture": true,
     "targetFile": "QuickCapture.md",
     "placeholder": "Capture your thoughts...",
     "appendToFile": "append",
@@ -356,7 +356,7 @@
     ],
     "taskContentFromMetadata": "title",
     "defaultTaskStatus": " ",
-    "enableWorkerProcessing": true,
+    "enableWorkerProcessing": false,
     "enableMtimeOptimization": true,
     "mtimeCacheSize": 10000
   },
@@ -365,48 +365,15 @@
   "focusHeading": "",
   "enableIndexer": true,
   "enableView": true,
-  "enableInlineEditor": true,
+  "enableInlineEditor": false,
   "enableDynamicMetadataPositioning": false,
   "defaultViewMode": "list",
   "globalFilterRules": {},
   "viewConfiguration": [
     {
-      "id": "today",
-      "name": "Today",
-      "icon": "calendar-days",
-      "type": "default",
-      "visible": true,
-      "region": "top",
-      "hideCompletedAndAbandonedTasks": true,
-      "filterBlanks": false,
-      "filterRules": {}
-    },
-    {
-      "id": "upcoming",
-      "name": "Upcoming",
-      "icon": "calendar",
-      "type": "default",
-      "visible": true,
-      "region": "top",
-      "hideCompletedAndAbandonedTasks": true,
-      "filterBlanks": false,
-      "filterRules": {}
-    },
-    {
       "id": "inbox",
       "name": "Inbox",
       "icon": "inbox",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": true,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "top"
-    },
-    {
-      "id": "working-on",
-      "name": "Working On",
-      "icon": "timer",
       "type": "default",
       "visible": true,
       "hideCompletedAndAbandonedTasks": true,
@@ -436,186 +403,6 @@
       "hideCompletedAndAbandonedTasks": false,
       "filterRules": {},
       "filterBlanks": false
-    },
-    {
-      "id": "tags",
-      "name": "Tags",
-      "icon": "tag",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false
-    },
-    {
-      "id": "flagged",
-      "name": "Flagged",
-      "icon": "flag",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": true,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "top"
-    },
-    {
-      "id": "review",
-      "name": "Review",
-      "icon": "eye",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false
-    },
-    {
-      "id": "calendar",
-      "name": "Events",
-      "icon": "calendar",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "bottom",
-      "specificConfig": {
-        "viewType": "calendar",
-        "hideWeekends": false,
-        "showWorkingHoursOnly": false,
-        "workingHoursStart": 9,
-        "workingHoursEnd": 18
-      }
-    },
-    {
-      "id": "kanban",
-      "name": "Status",
-      "icon": "kanban",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "bottom",
-      "specificConfig": {
-        "viewType": "kanban",
-        "showCheckbox": true,
-        "hideEmptyColumns": false,
-        "defaultSortField": "priority",
-        "defaultSortOrder": "desc",
-        "groupBy": "status"
-      }
-    },
-    {
-      "id": "gantt",
-      "name": "Plan",
-      "icon": "chart-gantt",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "bottom",
-      "specificConfig": {
-        "viewType": "gantt",
-        "showTaskLabels": true,
-        "useMarkdownRenderer": true
-      }
-    },
-    {
-      "id": "habit",
-      "name": "Habit",
-      "icon": "calendar-clock",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "region": "bottom"
-    },
-    {
-      "id": "table",
-      "name": "Table",
-      "icon": "table",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "specificConfig": {
-        "viewType": "table",
-        "enableTreeView": true,
-        "enableLazyLoading": true,
-        "pageSize": 50,
-        "enableInlineEditing": true,
-        "visibleColumns": [
-          "status",
-          "content",
-          "priority",
-          "dueDate",
-          "startDate",
-          "scheduledDate",
-          "tags",
-          "project",
-          "context",
-          "filePath"
-        ],
-        "columnWidths": {
-          "status": 80,
-          "content": 300,
-          "priority": 100,
-          "dueDate": 120,
-          "startDate": 120,
-          "scheduledDate": 120,
-          "createdDate": 120,
-          "completedDate": 120,
-          "tags": 150,
-          "project": 150,
-          "context": 120,
-          "recurrence": 120,
-          "estimatedTime": 120,
-          "actualTime": 120,
-          "filePath": 200
-        },
-        "sortableColumns": true,
-        "resizableColumns": true,
-        "showRowNumbers": true,
-        "enableRowSelection": true,
-        "enableMultiSelect": true,
-        "defaultSortField": "",
-        "defaultSortOrder": "asc"
-      }
-    },
-    {
-      "id": "quadrant",
-      "name": "Matrix",
-      "icon": "layout-grid",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "specificConfig": {
-        "viewType": "quadrant",
-        "hideEmptyQuadrants": false,
-        "autoUpdatePriority": true,
-        "autoUpdateTags": true,
-        "showTaskCount": true,
-        "defaultSortField": "priority",
-        "defaultSortOrder": "desc",
-        "urgentTag": "#urgent",
-        "importantTag": "#important",
-        "urgentThresholdDays": 3,
-        "usePriorityForClassification": false,
-        "urgentPriorityThreshold": 4,
-        "importantPriorityThreshold": 3,
-        "customQuadrantColors": false,
-        "quadrantColors": {
-          "urgentImportant": "#dc3545",
-          "notUrgentImportant": "#28a745",
-          "urgentNotImportant": "#ffc107",
-          "notUrgentNotImportant": "#6c757d"
-        }
-      }
     }
   ],
   "reviewSettings": {},
@@ -667,7 +454,7 @@
     "showRewardType": "modal"
   },
   "habit": {
-    "enableHabits": true,
+    "enableHabits": false,
     "habits": []
   },
   "filterConfig": {
@@ -842,11 +629,11 @@
   "enableCustomDateFormats": false,
   "customDateFormats": [],
   "onboarding": {
-    "completed": false,
-    "version": "",
+    "completed": true,
+    "version": "9.13.1",
     "configMode": "beginner",
     "skipOnboarding": false,
-    "completedAt": ""
+    "completedAt": "2026-03-30T07:02:58.733Z"
   },
   "fileSource": {
     "enabled": false,
@@ -949,7 +736,7 @@
       "defaultWorkspace": "default",
       "maxOtherViewsBeforeOverflow": 5
     },
-    "useWorkspaceSideLeaves": false
+    "useWorkspaceSideLeaves": true
   },
   "customCalendarViews": [
     {
@@ -987,7 +774,7 @@
       "ws_1774664085616_v0qmehqpx": {
         "id": "ws_1774664085616_v0qmehqpx",
         "name": "Default",
-        "updatedAt": 1774774848274,
+        "updatedAt": 1774854232175,
         "settings": {
           "fluentFilterState": {
             "inbox": {
