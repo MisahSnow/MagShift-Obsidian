@@ -34,16 +34,13 @@ gantt
     Final Balance :d2, 2027-01-20, 102d
     Version 1.0 :milestone, m4, 2027-05-01, 1d
 ```
-
-
-
 ```countdown-to
 title: Vertical Slice Deadline
 startDate: 2026-01-04
 startTime: 08:00:00
-endDate: 2026-04-11
-endTime: 14:00:00
-type: circle
+endDate: 2026-05-10
+endTime: 20:00:00
+type: line
 color: #ff5722
 trailColor: #f5f5f5
 infoFormat: {percent}% complete - {remaining} until {end:LLL d, yyyy}
