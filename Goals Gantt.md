@@ -9,12 +9,12 @@ gantt
     section Vertical Slice
 
     Vehicle Garage :a2, 2026-03-31, 5d
-    Vehicle Upgrades L2 :a3, 2026-03-31, 10d
-    Career Mode Tutorial :a1, 2026-03-31, 15d
-    Varoxis Maps x2 :a4, 2026-03-31, 20d
-    Helios Maps x2 :a5, 2026-03-31, 25d
-    VFX and SFX :a6, 2026-03-31, 30d
-    Bug Fixing :a7, 2026-03-31,  30d
+    Vehicle Upgrades L2 :a3, 2026-04-05, 5d
+    Career Mode Tutorial :a1, 2026-04-10, 5d
+    Varoxis Maps x2 :a4, 2026-04-15, 5d
+    Helios Maps x2 :a5, 2026-04-20, 5d
+    VFX and SFX :a6, 2026-04-25, 3d
+    Bug Fixing :a7, 2026-04-28,  3d
     Vertical Slice :milestone, m1, 2026-05-1, 1d
 
     section Alpha
