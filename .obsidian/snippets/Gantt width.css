@@ -1,0 +1,11 @@
+.canvas-node-content .mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.canvas-node-content .mermaid svg {
+  max-width: none !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+}
