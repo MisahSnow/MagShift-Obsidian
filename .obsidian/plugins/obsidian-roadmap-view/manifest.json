@@ -1,0 +1,10 @@
+{
+  "id": "roadmap-board-view",
+  "name": "Roadmap Board View",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Render a markdown roadmap note as a horizontal board view instead of Mermaid.",
+  "author": "OpenAI",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": false
+}

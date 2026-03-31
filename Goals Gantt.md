@@ -18,8 +18,9 @@ gantt
     Vertical Slice :milestone, m1, 2026-05-1, 1d
 
     section Alpha
-    Career Mode 6 Planets :b1, 2026-05-02, 91d
-    Battle Mode :b2, 2026-05-15, 78d
+    Battle Mode :b2, 2026-05-02, 15d
+    Career Mode 6 Planets :b1, 2026-05-17, 75d
+	Planet - Varoxis :b1, 2026-05-17, 75d
     Alpha Release :milestone, m2, 2026-08-01, 1d
 
     section Beta
