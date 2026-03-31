@@ -7,14 +7,15 @@ gantt
     axisFormat %d/%m/%y
 
     section Vertical Slice
-    Career Mode Tutorial :a1, 2026-03-01, 30d
-    Vehicle Garage :a2, 2026-03-01, 26d
-    Vehicle Upgrades L2 :a3, 2026-03-01, 23d
-    Varoxis Maps x2 :a4, 2026-03-01, 30d
-    Helios Maps x2 :a5, 2026-03-01, 30d
-    VFX and SFX :a6, 2026-03-10, 21d
-    Bug Fixing :a7, 2026-04-15, 16d
-    Vertical Slice :milestone, m1, 2026-05-01, 1d
+
+    Vehicle Garage :a2, 2026-03-31, 5d
+    Vehicle Upgrades L2 :a3, 2026-03-31, 10d
+    Career Mode Tutorial :a1, 2026-03-31, 15d
+    Varoxis Maps x2 :a4, 2026-03-31, 20d
+    Helios Maps x2 :a5, 2026-03-31, 25d
+    VFX and SFX :a6, 2026-03-31, 30d
+    Bug Fixing :a7, 2026-03-31,  30d
+    Vertical Slice :milestone, m1, 2026-05-1, 1d
 
     section Alpha
     Career Mode 6 Planets :b1, 2026-05-02, 91d
