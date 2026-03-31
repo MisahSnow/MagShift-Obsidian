@@ -1,0 +1,36 @@
+.countdown-to-plugin.countdown-to-container {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--background-secondary);
+    transition: background-color 1.0s ease;
+}
+
+.countdown-to-plugin.countdown-to-container.countdown-to-upcoming {
+    background-color: var(--countdown-to-upcoming-bg, var(--background-secondary, #e3e3e3));
+}
+
+.countdown-to-plugin .countdown-to-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.countdown-to-plugin .countdown-to-info {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    margin-top: 5px;
+}
+
+/* Circle, SemiCircle and Square need more height */
+.countdown-to-plugin .countdown-to-circle,
+.countdown-to-plugin .countdown-to-semicircle,
+.countdown-to-plugin .countdown-to-square {
+    height: 100px;
+}
+
+/* Line can stay with the default height */
+.countdown-to-plugin .countdown-to-line {
+    height: 20px;
+}
