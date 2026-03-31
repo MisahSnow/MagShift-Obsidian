@@ -35,11 +35,5 @@ gantt
     Final Balance :d2, 2026-11-15, 79d
     Version 1.0 :milestone, m4, 2027-02-01, 1d
 ```
-packet-beta
-title UDP Packet
-0-15: "Source Port"
-16-31: "Destination Port"
-32-47: "Length"
-48-63: "Checksum"
-64-95: "Data (variable length)"
+
 
