@@ -3,6 +3,7 @@
   "baseFontSize": 16,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "wider-mermaid"
+    "wider-mermaid",
+    "Gantt width"
   ]
 }

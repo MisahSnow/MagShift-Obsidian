@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNotebookText",
       "LiCheckCircle",
       "LiTaskGenius",
       "LiGamepad2",
-      "LiHouse",
-      "LiGlobe2"
+      "LiHouse"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
