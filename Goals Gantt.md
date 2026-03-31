@@ -20,7 +20,8 @@ gantt
     section Alpha
     Battle Mode :b2, 2026-05-02, 15d
     Career Mode 6 Planets :b1, 2026-05-17, 75d
-	Planet - Varoxis :b1, 2026-05-17, 75d
+	Planet - Varoxis :b1, 2026-05-17, 15d
+	Planet - Helios :b1, 2026-06-02, 15d
     Alpha Release :milestone, m2, 2026-08-01, 1d
 
     section Beta
@@ -34,3 +35,11 @@ gantt
     Final Balance :d2, 2026-11-15, 79d
     Version 1.0 :milestone, m4, 2027-02-01, 1d
 ```
+packet-beta
+title UDP Packet
+0-15: "Source Port"
+16-31: "Destination Port"
+32-47: "Length"
+48-63: "Checksum"
+64-95: "Data (variable length)"
+
