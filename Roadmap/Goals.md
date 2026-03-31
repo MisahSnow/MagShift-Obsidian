@@ -4,34 +4,52 @@ kanban-plugin: board
 
 ---
 
-## Vertical Slice<br>[[2026-05-01]]
+## Vertical Slice<br>[[2026-05-10]]
 
-- [ ] Career Mode with 1st Cutscene leading into Tutorial
-- [ ] Vehicle Garage with 3 vehicles to buy
-- [ ] Vehicle Upgrades up to Level 2
-- [ ] 2 Varoxis Maps Mostly Complete
-- [ ] 2 Helios Maps Mostly Complete
-- [ ] VFX and SFX In place where needed
-- [ ] Majority of bugs fixed
-
-
-## Early Access Alpha Release [[2026-08-01]]
-
-- [ ] Career Mode: 6 Planets, 3 levels each, pre-polish
-- [ ] Battle Mode complete, 1 Level per Planet
-
-
-## Early Access Beta Release [[2026-11-01]]
-
-- [ ] Everything Complete, Mostly just touch ups for polish
-- [ ] Game Mostly Balanced from Alpha Player Feedback
-- [ ] All Cutscenes Complete
+- [ ] Career Mode with 1st Cutscene leading into Tutorial 
+	Target: [[2026-04-18]]
+- [ ] Vehicle Garage with 3 vehicles to buy 
+	Target: [[2026-04-05]]
+- [ ] Vehicle Upgrades up to Level 2 
+	Target: [[2026-04-12]]
+- [ ] 2 Varoxis Maps Mostly Complete 
+	Target: [[2026-04-25]]
+- [ ] 2 Helios Maps Mostly Complete 
+	Target: [[2026-05-01]]
+- [ ] VFX and SFX In place where needed 
+	Target: [[2026-05-05]]
+- [ ] Majority of bugs fixed 
+	Target: [[2026-05-09]]
 
 
-## Full 1.0 Release<br>[[2027-02-01]]
+## Early Access Alpha Release [[2026-09-06]]
 
-- [ ] All Identifiable bugs are fixed and the game is fully polished and ready for release
-- [ ] Game as Balanced as we can get it
+- [ ] Battle Mode complete, 1 Level per Planet 
+	Target: [[2026-05-29]]
+- [ ] Career Mode: 6 Planets, 3 levels each, pre-polish 
+	Target: [[2026-09-05]]
+- [ ] Planet - Varoxis 
+	Target: [[2026-06-18]]
+- [ ] Planet - Helios 
+	Target: [[2026-07-08]]
+
+
+## Early Access Beta Release [[2027-01-02]]
+
+- [ ] Everything Complete, Mostly just touch ups for polish 
+	Target: [[2027-01-03]]
+- [ ] Game Mostly Balanced from Alpha Player Feedback 
+	Target: [[2027-01-03]]
+- [ ] All Cutscenes Complete 
+	Target: [[2027-01-02]]
+
+
+## Full 1.0 Release<br>[[2027-05-01]]
+
+- [ ] All Identifiable bugs are fixed and the game is fully polished and ready for release 
+	Target: [[2027-05-02]]
+- [ ] Game as Balanced as we can get it 
+	Target: [[2027-05-01]]
 
 
 

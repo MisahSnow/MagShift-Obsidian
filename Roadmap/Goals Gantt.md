@@ -7,33 +7,47 @@ gantt
     axisFormat %d/%m/%y
 
     section Vertical Slice
-
-    Vehicle Garage :a2, 2026-03-31, 5d
-    Vehicle Upgrades L2 :a3, 2026-04-05, 5d
-    Career Mode Tutorial :a1, 2026-04-10, 5d
-    Varoxis Maps x2 :a4, 2026-04-15, 5d
-    Helios Maps x2 :a5, 2026-04-20, 5d
-    VFX and SFX :a6, 2026-04-25, 3d
-    Bug Fixing :a7, 2026-04-28,  3d
-    Vertical Slice :milestone, m1, 2026-05-1, 1d
+    Vehicle Garage :a2, 2026-03-31, 6d
+    Vehicle Upgrades L2 :a3, 2026-04-06, 6d
+    Career Mode Tutorial :a1, 2026-04-13, 6d
+    Varoxis Maps x2 :a4, 2026-04-19, 6d
+    Helios Maps x2 :a5, 2026-04-26, 6d
+    VFX and SFX :a6, 2026-05-02, 4d
+    Bug Fixing :a7, 2026-05-06, 4d
+    Vertical Slice :milestone, m1, 2026-05-10, 1d
 
     section Alpha
-    Battle Mode :b2, 2026-05-02, 15d
-    Career Mode 6 Planets :b1, 2026-05-17, 75d
-	Planet - Varoxis :b1, 2026-05-17, 15d
-	Planet - Helios :b1, 2026-06-02, 15d
-    Alpha Release :milestone, m2, 2026-08-01, 1d
+    Battle Mode :b2, 2026-05-11, 19d
+    Career Mode 6 Planets :b1, 2026-05-31, 97d
+    Planet - Varoxis :b3, 2026-05-31, 19d
+    Planet - Helios :b4, 2026-06-20, 19d
+    Alpha Release :milestone, m2, 2026-09-06, 1d
 
     section Beta
-    Final Content and Polish :c1, 2026-08-02, 92d
-    Balance Pass :c2, 2026-08-15, 79d
-    All Cutscenes :c3, 2026-08-10, 84d
-    Beta Release :milestone, m3, 2026-11-01, 1d
+    Final Content and Polish :c1, 2026-09-07, 119d
+    Balance Pass :c2, 2026-09-24, 102d
+    All Cutscenes :c3, 2026-09-17, 108d
+    Beta Release :milestone, m3, 2027-01-02, 1d
 
     section Full Release
-    Final Bug Fixing :d1, 2026-11-02, 92d
-    Final Balance :d2, 2026-11-15, 79d
-    Version 1.0 :milestone, m4, 2027-02-01, 1d
+    Final Bug Fixing :d1, 2027-01-04, 119d
+    Final Balance :d2, 2027-01-20, 102d
+    Version 1.0 :milestone, m4, 2027-05-01, 1d
 ```
 
+
+
+```countdown-to
+title: Vertical Slice Deadline
+startDate: 2026-01-04
+startTime: 08:00:00
+endDate: 2026-04-11
+endTime: 14:00:00
+type: circle
+color: #ff5722
+trailColor: #f5f5f5
+infoFormat: {percent}% complete - {remaining} until {end:LLL d, yyyy}
+updateInRealTime: true
+updateIntervalInSeconds: 30
+```
 
