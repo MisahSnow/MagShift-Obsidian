@@ -10,6 +10,7 @@ kanban-plugin: board
 - [ ] Add [[Scatter Shot]] Pickup
 - [ ] Add [[Chain Lightning]] Pickup
 - [ ] Fix Rockets
+- [ ] Find Mag Mine Visual
 - [ ] Fix Mag Mine Mechanics
 - [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
@@ -32,7 +33,6 @@ kanban-plugin: board
 ## Soon
 
 - [ ] Add steering threshold to keyboard controls
-- [ ] Find Mag Mine Visual
 - [ ] Create Lore Guide for Helios
 - [ ] Create Lore Guide for Spectre Media
 - [ ] Add Indicators for when you get hit by a power up
