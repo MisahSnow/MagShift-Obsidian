@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## Today
 
-- [ ] Add [[Phase Shift]] Pickup
 - [ ] Add [[Missile]] Pickup
 - [ ] Add [[Scatter Shot]] Pickup
 - [ ] Add [[Chain Lightning]] Pickup
@@ -76,6 +75,7 @@ kanban-plugin: board
 - [ ] Balance Pickups and improve pickup visuals and sounds
 - [ ] Add Sound FX For Vehicle Crashes
 - [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
+- [ ] Add [[Phase Shift]] Pickup
 
 %% kanban:settings
 ```
