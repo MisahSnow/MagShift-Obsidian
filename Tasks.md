@@ -6,22 +6,19 @@ kanban-plugin: board
 
 ## Today
 
-- [ ] Balance Pickups and improve pickup visuals and sounds
-- [ ] Add Sound FX For Vehicle Crashes
-
-
-## This Week
-
 - [ ] Add [[Phase Shift]] Pickup
 - [ ] Add [[Missile]] Pickup
 - [ ] Add [[Scatter Shot]] Pickup
 - [ ] Add [[Chain Lightning]] Pickup
 - [ ] Fix Rockets
-- [ ] Organize Project ^ogn69x
-- [ ] Add Tutorial Level
-- [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
-- [ ] Add Indicators for when you get hit by a power up
+- [ ] Fix Mag Mine Mechanics
+- [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
+
+
+## This Week
+
+- [ ] Organize Project ^ogn69x
 
 
 ## Next Week
@@ -29,19 +26,21 @@ kanban-plugin: board
 - [ ] Balance and add 3 Vehicles
 - [ ] Create Garage for Career Mode (Vehicle Selection)
 - [ ] Create Vehicle Shop to add Vehicles to Garage
+- [ ] Add Vehicle Upgrades System to Garage
+- [ ] Add Tutorial Level
 
 
 ## Soon
 
 - [ ] Add steering threshold to keyboard controls
-- [ ] Fix Mag Mine
+- [ ] Find Mag Mine Visual
 - [ ] Create Lore Guide for Helios
 - [ ] Create Lore Guide for Spectre Media
+- [ ] Add Indicators for when you get hit by a power up
 
 
 ## Later
 
-- [ ] Add Vehicle Upgrades System to Garage
 - [ ] Finish Battle Mode Prototype
 - [ ] Create New Map
 - [ ] Multiple Driving Camera Angles (Possible Cockpit View?)
@@ -54,7 +53,6 @@ kanban-plugin: board
 - [ ] First Time Player Career Menu Flow:
 	
 	Pick First Car Screen -> Intro Cutscene Plays -> Tutorial Race -> Planet/Event Selection Screen
-- [ ] Add Humming Sound Effect to Mag Mine
 
 
 ***
@@ -75,6 +73,9 @@ kanban-plugin: board
 - [x] Make overcharge boost slower
 - [ ] Check out Project Auditor
 - [ ] Add Volume Options to main menu and pause menu
+- [ ] Balance Pickups and improve pickup visuals and sounds
+- [ ] Add Sound FX For Vehicle Crashes
+- [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
 
 %% kanban:settings
 ```
