@@ -18,7 +18,7 @@
 		{"id":"3abd0098c8c79f4c","type":"file","file":"Game Mechanics/Pickups/Art/ShieldArt.png","x":620,"y":1220,"width":176,"height":176,"color":"1"},
 		{"id":"c7e4b8d93a1e42df","type":"file","file":"Game Mechanics/Pickups/Descriptions/Rockets.md","x":860,"y":182,"width":400,"height":180,"color":"2"},
 		{"id":"f9d6a0c3b2841e57","type":"file","file":"Game Mechanics/Pickups/Descriptions/Missile.md","x":860,"y":428,"width":400,"height":200,"color":"1"},
-		{"id":"e9b3f5d0a2846c12","type":"file","file":"Game Mechanics/Pickups/Descriptions/Phase Shift.md","x":860,"y":1202,"width":400,"height":213,"color":"1"},
+		{"id":"e9b3f5d0a2846c12","type":"file","file":"Game Mechanics/Pickups/Descriptions/Phase Shift.md","x":860,"y":1202,"width":400,"height":213,"color":"2"},
 		{"id":"c4e7d8a1f3925b6d","type":"file","file":"Game Mechanics/Pickups/Descriptions/Chain Lightning.md","x":860,"y":964,"width":400,"height":172,"color":"1"},
 		{"id":"a2f18b4c7d9340e1","type":"file","file":"Game Mechanics/Pickups/Descriptions/Scatter Shot.md","x":860,"y":680,"width":400,"height":200,"color":"1"},
 		{"id":"43bdf417e1ed2ed0","type":"file","file":"Game Mechanics/Pickups/Art/RepairArt.png","x":620,"y":1472,"width":176,"height":176},
