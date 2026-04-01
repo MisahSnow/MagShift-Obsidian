@@ -21,6 +21,9 @@ gantt
     Career Mode 6 Planets :b1, 2026-05-31, 97d
     Planet - Varoxis :b3, 2026-05-31, 19d
     Planet - Helios :b4, 2026-06-20, 19d
+    Planet - Hydraxis :b5, 2026-07-8, 19d
+    Planet - Glacior :b6, 2026-07-27, 19d
+    Planet - Neon Prime :b7, 2026-08-17, 19d
     Alpha Release :milestone, m2, 2026-09-06, 1d
 
     section Beta

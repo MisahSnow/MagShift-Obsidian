@@ -32,6 +32,9 @@ kanban-plugin: board
 	Target: [[2026-06-18]]
 - [ ] Planet - Helios 
 	Target: [[2026-07-08]]
+- [ ] Planet - Hydraxis
+- [ ] Planet - Glacior
+- [ ] Planet - Neon Prime
 
 
 ## Early Access Beta Release [[2027-01-02]]
