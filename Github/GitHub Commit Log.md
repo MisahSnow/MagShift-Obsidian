@@ -1,11 +1,12 @@
 ## GitHub Commit Log
 
 Repository: [MisahSnow/MagShift](https://github.com/MisahSnow/MagShift/commits)
-Updated: 2026-04-01 19:41 UTC
+Updated: 2026-04-01 20:41 UTC
 Showing: 25 commits
 
 | Commit | Date | Author | Message |
 | --- | --- | --- | --- |
+| [`94941ab`](https://github.com/MisahSnow/MagShift/commit/94941abb7778045dd90cba73fc3a6ff9d0c417c7) | 2026-04-01 | MisahSnow | Add phase shift pickup and externalize vehicle pickup settings |
 | [`7e94578`](https://github.com/MisahSnow/MagShift/commit/7e945780d3c2727d8ba0ab9c54957aa37971ee96) | 2026-03-29 | MisahSnow | Add configurable thruster visuals and clean Unity warnings |
 | [`a0b116a`](https://github.com/MisahSnow/MagShift/commit/a0b116a3f36c90d8d431426db47893478ca917d6) | 2026-03-28 | MisahSnow | k |
 | [`8457540`](https://github.com/MisahSnow/MagShift/commit/845754081be1afe6fde406eb684e26c15eab389f) | 2026-03-28 | MisahSnow | umm |
@@ -30,4 +31,3 @@ Showing: 25 commits
 | [`75aa395`](https://github.com/MisahSnow/MagShift/commit/75aa39554eccf0d1fcf9de915a85bff3f37dfb4d) | 2026-03-20 | MisahSnow | Add chargeable ion blast and retune vehicle prefabs |
 | [`2bb77ef`](https://github.com/MisahSnow/MagShift/commit/2bb77effb9cc88a50695189ba907b52e51eb403a) | 2026-03-20 | MisahSnow | Add collision camera shake and ignore Obsidian vault |
 | [`dca577f`](https://github.com/MisahSnow/MagShift/commit/dca577f2aebcc5645d8539e7eab53b3bc70bf185) | 2026-03-19 | MisahSnow | Add synced water waves with generated grid surface |
-| [`87d2c6e`](https://github.com/MisahSnow/MagShift/commit/87d2c6e79d200237100adad01284080e4990ba96) | 2026-03-19 | MisahSnow | Add boat-style water driving and test scene |
