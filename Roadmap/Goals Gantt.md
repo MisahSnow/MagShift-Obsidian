@@ -51,3 +51,16 @@ updateInRealTime: true
 updateIntervalInSeconds: 30
 ```
 
+```countdown-to
+title: Vertical Slice Deadline
+startDate: 2026-05-10
+startTime: 08:00:00
+endDate: 2026-09-10
+endTime: 20:00:00
+type: line
+color: #ff5722
+trailColor: #f5f5f5
+infoFormat: {percent}% complete - {remaining} until {end:LLL d, yyyy}
+updateInRealTime: true
+updateIntervalInSeconds: 30
+```
