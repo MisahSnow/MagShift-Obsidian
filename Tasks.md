@@ -6,27 +6,23 @@ kanban-plugin: board
 
 ## Today
 
-- [ ] Add [[Missile]] Pickup
-- [ ] Add [[Scatter Shot]] Pickup
-- [ ] Add [[Chain Lightning]] Pickup
-- [ ] Fix Rockets
+- [ ] Balance and add 3 Vehicles
+- [ ] Create Garage for Career Mode (Vehicle Selection)
+- [ ] Create Vehicle Shop to add Vehicles to Garage
+- [ ] Add Vehicle Upgrades System to Garage
+
+
+## This Week
+
+- [ ] Organize Project ^ogn69x
 - [ ] Find Mag Mine Visual
 - [ ] Fix Mag Mine Mechanics
 - [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
 
 
-## This Week
-
-- [ ] Organize Project ^ogn69x
-
-
 ## Next Week
 
-- [ ] Balance and add 3 Vehicles
-- [ ] Create Garage for Career Mode (Vehicle Selection)
-- [ ] Create Vehicle Shop to add Vehicles to Garage
-- [ ] Add Vehicle Upgrades System to Garage
 - [ ] Add Tutorial Level
 
 
@@ -45,6 +41,8 @@ kanban-plugin: board
 - [ ] Multiple Driving Camera Angles (Possible Cockpit View?)
 - [ ] Add [[Time Attack Mode]]
 - [ ] Work on Branching Paths in Track Path System (Maybe?)
+- [ ] Reconsider [[Scatter Shot]] Pickup
+- [ ] Reconsider [[Chain Lightning]] Pickup
 
 
 ## Much Later
@@ -76,6 +74,8 @@ kanban-plugin: board
 - [ ] Add Sound FX For Vehicle Crashes
 - [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed
 - [ ] Add [[Phase Shift]] Pickup
+- [ ] Add [[Missile]] Pickup
+- [ ] Fix Rockets
 
 %% kanban:settings
 ```
