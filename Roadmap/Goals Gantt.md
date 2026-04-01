@@ -22,8 +22,8 @@ gantt
     Planet - Varoxis :b3, 2026-05-31, 19d
     Planet - Helios :b4, 2026-06-20, 19d
     Planet - Hydraxis :b5, 2026-07-8, 19d
-    Planet - Glacior :b6, 2026-07-27, 19d
-    Planet - Neon Prime :b7, 2026-08-17, 19d
+    Planet - Glacior :b6, 2026-07-27,19d
+    Planet - Neon Prime :b7, 2026-08-
     Alpha Release :milestone, m2, 2026-09-06, 1d
 
     section Beta
@@ -51,16 +51,3 @@ updateInRealTime: true
 updateIntervalInSeconds: 30
 ```
 
-```countdown-to
-title: Vertical Slice Deadline
-startDate: 2026-05-10
-startTime: 08:00:00
-endDate: 2026-09-10
-endTime: 20:00:00
-type: line
-color: #ff5722
-trailColor: #f5f5f5
-infoFormat: {percent}% complete - {remaining} until {end:LLL d, yyyy}
-updateInRealTime: true
-updateIntervalInSeconds: 30
-```
