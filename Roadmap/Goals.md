@@ -15,7 +15,7 @@ kanban-plugin: board
 - [ ] 2 Varoxis Maps Mostly Complete 
 	Target: [[2026-04-25]]
 - [ ] 2 Helios Maps Mostly Complete 
-	Target: [[2026-05-01]]
+	Target: [[2026-05-10]]
 - [ ] VFX and SFX In place where needed 
 	Target: [[2026-05-05]]
 - [ ] Majority of bugs fixed 

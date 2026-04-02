@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGlobe",
       "LiNotebookText",
       "LiCheckCircle",
       "LiTaskGenius",
-      "LiGamepad2",
-      "LiHouse"
+      "LiGamepad2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,6 @@
   "Scripts": "LiStickyNote",
   "World Building": "LiGlobe2",
   "Home.canvas": "LiHouse",
-  "Tasks.md": "LiCheckCircle"
+  "Tasks.md": "LiCheckCircle",
+  "Steam Mockup.website": "LiGlobe"
 }
