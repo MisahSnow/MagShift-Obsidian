@@ -7,8 +7,6 @@ kanban-plugin: board
 ## Today
 
 - [ ] Balance and add 3 Vehicles
-- [ ] Create Garage for Career Mode (Vehicle Selection)
-- [ ] Create Vehicle Shop to add Vehicles to Garage
 - [ ] Add Vehicle Upgrades System to Garage
 
 
@@ -76,6 +74,8 @@ kanban-plugin: board
 - [ ] Add [[Phase Shift]] Pickup
 - [ ] Add [[Missile]] Pickup
 - [ ] Fix Rockets
+- [ ] Create Garage for Career Mode (Vehicle Selection)
+- [ ] Create Vehicle Shop to add Vehicles to Garage
 
 %% kanban:settings
 ```
