@@ -7,15 +7,15 @@ kanban-plugin: board
 ## Today
 
 - [ ] Balance and add 3 Vehicles
-- [ ] [[Currency]]
+- [ ] Add [[Currency]]
 - [ ] Add Vehicle Upgrade Visuals
 
 
 ## This Week
 
 - [ ] Organize Project ^ogn69x
-- [ ] Find Mag Mine Visual
-- [ ] Fix Mag Mine Mechanics
+- [ ] Find Mag Mine Visual (Try Plasma Shader)
+- [ ] Fix Mag Mine Mechanics (Make Magmine explode instead of trapping you)
 - [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
 
@@ -23,22 +23,25 @@ kanban-plugin: board
 ## Next Week
 
 - [ ] Add Tutorial Level
+- [ ] Polish Varoxis Refinery
+- [ ] Polish Varoxis Mines
+- [ ] Create Lore Guide for Helios
+- [ ] Polish Helios Wasteland
+- [ ] Create Helios Map 2
 
 
 ## Soon
 
 - [ ] Add steering threshold to keyboard controls
-- [ ] Create Lore Guide for Helios
 - [ ] Create Lore Guide for Spectre Media
 - [ ] Add Indicators for when you get hit by a power up
+- [ ] Add [[Time Attack Mode]]
 
 
 ## Later
 
 - [ ] Finish Battle Mode Prototype
-- [ ] Create New Map
 - [ ] Multiple Driving Camera Angles (Possible Cockpit View?)
-- [ ] Add [[Time Attack Mode]]
 - [ ] Work on Branching Paths in Track Path System (Maybe?)
 - [ ] Reconsider [[Scatter Shot]] Pickup
 - [ ] Reconsider [[Chain Lightning]] Pickup
