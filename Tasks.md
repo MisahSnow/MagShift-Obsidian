@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] Balance and add 3 Vehicles
 - [ ] Add [[Currency]]
 - [ ] Add Vehicle Upgrade Visuals
+- [ ] Adjust Overcharge Boost Speed
 
 
 ## This Week
