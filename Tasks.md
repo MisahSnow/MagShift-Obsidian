@@ -8,6 +8,7 @@ kanban-plugin: board
 
 - [ ] Balance and add 3 Vehicles
 - [ ] [[Currency]]
+- [ ] Add Vehicle Upgrade Visuals
 
 
 ## This Week

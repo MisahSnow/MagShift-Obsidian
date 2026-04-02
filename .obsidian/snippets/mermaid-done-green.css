@@ -1,0 +1,14 @@
+/* Mermaid Gantt completed task color override for Obsidian */
+.mermaid .task.done,
+.mermaid .task0.done,
+.mermaid .task1.done,
+.mermaid .task2.done,
+.mermaid .task3.done {
+  fill: #22c55e !important;
+  stroke: #16a34a !important;
+}
+
+.mermaid .taskText.done,
+.mermaid text.taskText.done {
+  fill: #ffffff !important;
+}

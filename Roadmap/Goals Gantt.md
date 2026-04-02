@@ -7,7 +7,7 @@ gantt
     axisFormat %d/%m/%y
 
     section Vertical Slice
-    Vehicle Garage :a2, 2026-03-31, 6d
+    Vehicle Garage :done, :a2, 2026-03-31, 6d
     Vehicle Upgrades L2 :a3, 2026-04-06, 6d
     Career Mode Tutorial :a1, 2026-04-13, 6d
     Varoxis Maps x2 :a4, 2026-04-19, 6d
