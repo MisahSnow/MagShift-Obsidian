@@ -7,7 +7,7 @@ kanban-plugin: board
 ## Today
 
 - [ ] Balance and add 3 Vehicles
-- [ ] Add Vehicle Upgrades System to Garage
+- [ ] Currency System
 
 
 ## This Week
@@ -76,6 +76,7 @@ kanban-plugin: board
 - [ ] Fix Rockets
 - [ ] Create Garage for Career Mode (Vehicle Selection)
 - [ ] Create Vehicle Shop to add Vehicles to Garage
+- [ ] Add Vehicle Upgrades System to Garage
 
 %% kanban:settings
 ```
