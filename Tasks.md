@@ -7,7 +7,7 @@ kanban-plugin: board
 ## Today
 
 - [ ] Balance and add 3 Vehicles
-- [ ] Currency System
+- [ ] [[Currency]]
 
 
 ## This Week
