@@ -1,11 +1,13 @@
 ## GitHub Releases
 
 Repository: [MisahSnow/MagShift](https://github.com/MisahSnow/MagShift/releases)
-Updated: 2026-04-02 08:41 UTC
+Updated: 2026-04-02 09:40 UTC
 Showing: 10 releases
 
 | Release | Tag | Published | Type | Summary |
 | --- | --- | --- | --- | --- |
+| [Windows_Build_0.0.69](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.69) | `v0.0.69` | 2026-04-02 | Release | Automated Windows build 0.0.69. |
+| [Windows_Build_0.0.68](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.68) | `v0.0.68` | 2026-04-02 | Release | Automated Windows build 0.0.68. |
 | [Windows_Build_0.0.67](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.67) | `v0.0.67` | 2026-04-02 | Release | Automated Windows build 0.0.67. |
 | [Windows_Build_0.0.66](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.66) | `v0.0.66` | 2026-04-02 | Release | Automated Windows build 0.0.66. |
 | [Windows_Build_0.0.65](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.65) | `v0.0.65` | 2026-04-01 | Release | Automated Windows build 0.0.65. |
@@ -14,5 +16,3 @@ Showing: 10 releases
 | [Windows_Build_0.0.62](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.62) | `v0.0.62` | 2026-03-29 | Release | Automated Windows build 0.0.62. |
 | [Windows_Build_0.0.61](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.61) | `v0.0.61` | 2026-03-29 | Release | Automated Windows build 0.0.61. |
 | [Windows_Build_0.0.60](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.60) | `v0.0.60` | 2026-03-28 | Release | Automated Windows build 0.0.60. |
-| [Windows_Build_0.0.59](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.59) | `v0.0.59` | 2026-03-28 | Release | Automated Windows build 0.0.59. |
-| [Windows_Build_0.0.58](https://github.com/MisahSnow/MagShift/releases/tag/v0.0.58) | `v0.0.58` | 2026-03-28 | Release | Automated Windows build 0.0.58. |
