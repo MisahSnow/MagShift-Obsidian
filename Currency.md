@@ -1,0 +1,1 @@
+First Second and third earn a different amount of money, need hud elements in CareerMenu showing how much money each place in each race is worth, and hud elements in the garage to show how much money you have, and how much money vehicles and upgrades cost
