@@ -12,6 +12,7 @@ kanban-plugin: board
 - [ ] Adjust Overcharge Boost Speed
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
+- [ ] Finish Pickup Icons
 
 
 ## This Week
