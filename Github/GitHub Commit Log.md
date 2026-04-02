@@ -1,11 +1,13 @@
 ## GitHub Commit Log
 
 Repository: [MisahSnow/MagShift](https://github.com/MisahSnow/MagShift/commits)
-Updated: 2026-04-02 00:41 UTC
+Updated: 2026-04-02 01:41 UTC
 Showing: 25 commits
 
 | Commit | Date | Author | Message |
 | --- | --- | --- | --- |
+| [`3234d23`](https://github.com/MisahSnow/MagShift/commit/3234d23ca63598767fb7a67e062aa4f4dab2817e) | 2026-04-02 | MisahSnow | Remove Garage UI builder and runtime fallback |
+| [`48f7256`](https://github.com/MisahSnow/MagShift/commit/48f7256896f03d32f015cc09aa9446dfb5cc07b7) | 2026-04-02 | MisahSnow | Add editable thruster mounts and ramp debuff ignore distance |
 | [`a1e6909`](https://github.com/MisahSnow/MagShift/commit/a1e6909fab2674adfd78c4423f73e6538a2ee3c2) | 2026-04-01 | MisahSnow | Add garage scene UI and missile pickup support |
 | [`94941ab`](https://github.com/MisahSnow/MagShift/commit/94941abb7778045dd90cba73fc3a6ff9d0c417c7) | 2026-04-01 | MisahSnow | Add phase shift pickup and externalize vehicle pickup settings |
 | [`7e94578`](https://github.com/MisahSnow/MagShift/commit/7e945780d3c2727d8ba0ab9c54957aa37971ee96) | 2026-03-29 | MisahSnow | Add configurable thruster visuals and clean Unity warnings |
@@ -29,5 +31,3 @@ Showing: 25 commits
 | [`f214d76`](https://github.com/MisahSnow/MagShift/commit/f214d76585369107e6011b3a31ab6b5df0d2f81d) | 2026-03-21 | MisahSnow | Refine collision impacts and stabilize career menu planets |
 | [`6ddf315`](https://github.com/MisahSnow/MagShift/commit/6ddf31521a0790e88794abb3d0895a27ae3bfde2) | 2026-03-21 | MisahSnow | Add vehicle health and cyber warning HUD |
 | [`3dc6507`](https://github.com/MisahSnow/MagShift/commit/3dc650752817692f04c2897689d768e8df3d36f1) | 2026-03-20 | MisahSnow | Implement boat-style water physics and synced wave visuals |
-| [`75aa395`](https://github.com/MisahSnow/MagShift/commit/75aa39554eccf0d1fcf9de915a85bff3f37dfb4d) | 2026-03-20 | MisahSnow | Add chargeable ion blast and retune vehicle prefabs |
-| [`2bb77ef`](https://github.com/MisahSnow/MagShift/commit/2bb77effb9cc88a50695189ba907b52e51eb403a) | 2026-03-20 | MisahSnow | Add collision camera shake and ignore Obsidian vault |
