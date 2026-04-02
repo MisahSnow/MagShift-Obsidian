@@ -10,6 +10,8 @@ kanban-plugin: board
 - [ ] Add [[Currency]]
 - [ ] Add Vehicle Upgrade Visuals
 - [ ] Adjust Overcharge Boost Speed
+- [ ] Add [[Time Attack Mode]]
+- [ ] Add Elimination Mode
 
 
 ## This Week
@@ -36,7 +38,6 @@ kanban-plugin: board
 - [ ] Add steering threshold to keyboard controls
 - [ ] Create Lore Guide for Spectre Media
 - [ ] Add Indicators for when you get hit by a power up
-- [ ] Add [[Time Attack Mode]]
 
 
 ## Later
@@ -46,6 +47,9 @@ kanban-plugin: board
 - [ ] Work on Branching Paths in Track Path System (Maybe?)
 - [ ] Reconsider [[Scatter Shot]] Pickup
 - [ ] Reconsider [[Chain Lightning]] Pickup
+- [ ] Balance Pass
+- [ ] VFX Pass
+- [ ] SFX Pass
 
 
 ## Much Later
