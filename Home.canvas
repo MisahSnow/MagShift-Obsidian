@@ -16,9 +16,14 @@
 		{"id":"956262d2ff2581ea","type":"group","x":480,"y":80,"width":280,"height":520,"label":"Helios"},
 		{"id":"8c2e3aaabbeca854","type":"file","file":"Tasks.md","x":840,"y":-160,"width":580,"height":1220},
 		{"id":"5473842b05447dde","type":"file","file":"Github/GitHub Releases.md","x":1040,"y":1100,"width":940,"height":560},
-		{"id":"f489b5c7be14a5d0","type":"file","file":"Scripts/Cutscenes/Opening Cutscene Draft.mp4","x":120,"y":660,"width":640,"height":360},
 		{"id":"ea51f89e81b290ad","type":"file","file":"Github/GitHub Commit Log.md","x":80,"y":1100,"width":940,"height":1020},
 		{"id":"fb363ceee69b2688","type":"file","file":"Notes/Design Document.md","x":80,"y":-1000,"width":1020,"height":780},
+		{"id":"0193b16d18939dbe","type":"file","file":"Roadmap/Goals Gantt.md","x":1460,"y":-160,"width":1180,"height":1220},
+		{"id":"783ac29e9d815c42","type":"text","text":"> # **Planets**","x":315,"y":-120,"width":250,"height":60},
+		{"id":"7feb9d9e0b9e9ddb","type":"file","file":"Research/Research Canvas.canvas","x":1560,"y":-620,"width":400,"height":400},
+		{"id":"7abfbf60403c261c","type":"file","file":"Notes/Changes Since Last Dev Log.md","x":1130,"y":-1000,"width":400,"height":342},
+		{"id":"ff70643c2fbd2614","type":"file","file":"Game Mechanics/Pickups/Pickup Canvas.canvas","x":1130,"y":-620,"width":400,"height":400},
+		{"id":"f489b5c7be14a5d0","type":"file","file":"Scripts/Cutscenes/Opening Cutscene Draft.mp4","x":120,"y":660,"width":640,"height":360},
 		{
 			"id":"91db3c178f69a0ee",
 			"type":"text",
@@ -31,14 +36,9 @@
 		},
 		{"id":"6aa0684dd40a234d","type":"link","url":"https://chatgpt.com/canvas/shared/69b5ec64c8e08191925a0f38cde99b2a","x":660,"y":2280,"width":1340,"height":1860},
 		{"id":"d84a1f76e1700040","type":"file","file":"World Building/Concept Art/Planets/Varoxis/Varoxis, Main City.png","x":140,"y":120,"width":245,"height":163},
-		{"id":"0193b16d18939dbe","type":"file","file":"Roadmap/Goals Gantt.md","x":1460,"y":-160,"width":1180,"height":1220},
 		{"id":"2755f40a8ad163cb","type":"file","file":"World Building/Lore/Planets/Varoxis Canvas.canvas","x":140,"y":320,"width":245,"height":260},
-		{"id":"783ac29e9d815c42","type":"text","text":"> # **Planets**","x":315,"y":-120,"width":250,"height":60},
 		{"id":"67a705bebeb07bc5","type":"file","file":"World Building/Concept Art/Planets/Helios/Sand Worm.png","x":500,"y":120,"width":240,"height":124},
-		{"id":"7feb9d9e0b9e9ddb","type":"file","file":"Research/Research Canvas.canvas","x":1560,"y":-620,"width":400,"height":400},
-		{"id":"429fb41659bc76ed","type":"file","file":"World Building/Lore/Planets/Helios Canvas.canvas","x":500,"y":320,"width":240,"height":260},
-		{"id":"7abfbf60403c261c","type":"file","file":"Notes/Changes Since Last Dev Log.md","x":1130,"y":-1000,"width":400,"height":342},
-		{"id":"ff70643c2fbd2614","type":"file","file":"Game Mechanics/Pickups/Pickup Canvas.canvas","x":1130,"y":-620,"width":400,"height":400}
+		{"id":"429fb41659bc76ed","type":"file","file":"World Building/Lore/Planets/Helios Canvas.canvas","x":500,"y":320,"width":240,"height":260}
 	],
 	"edges":[
 		{"id":"707cb24f2a2a1891","toFloating":false,"fromNode":"d84a1f76e1700040","fromSide":"bottom","toNode":"2755f40a8ad163cb","toSide":"top"},
