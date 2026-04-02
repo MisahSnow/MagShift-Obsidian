@@ -22,6 +22,7 @@ kanban-plugin: board
 - [ ] Fix Mag Mine Mechanics (Make Magmine explode instead of trapping you)
 - [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
+- [ ] Try to make projectiles follow the track
 
 
 ## Next Week
