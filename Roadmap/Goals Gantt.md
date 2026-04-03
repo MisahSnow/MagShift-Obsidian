@@ -36,8 +36,6 @@ gantt
 
     Battle Mode             :b2, 2026-05-11, 19d
 
-    Career Mode 6 Planets   :b1, 2026-05-31, 97d
-
     Planet - Varoxis        :b3, 2026-05-31, 19d
 
     Planet - Helios         :b4, 2026-06-20, 19d
@@ -56,9 +54,9 @@ gantt
 
     Final Content and Polish :c1, 2026-09-07, 119d
 
-    Balance Pass            :c2, 2026-09-24, 102d
-
     All Cutscenes           :c3, 2026-09-17, 108d
+
+    Balance Pass            :c2, 2026-09-24, 102d
 
     Beta Release            :milestone, m3, 2027-01-02, 1d
 
