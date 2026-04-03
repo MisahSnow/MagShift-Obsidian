@@ -4,7 +4,7 @@
   so it works inside Obsidian's sandboxed renderer.
 */
 
-const { Plugin } = require("obsidian");
+const { Plugin, parseYaml: parseObsidianYaml } = require("obsidian");
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 
@@ -30,66 +30,120 @@ function svgEl(tag, attrs, parent) {
 }
 
 function parseYAML(src) {
-  const lines = src.split("\n");
+  if (typeof parseObsidianYaml === "function") {
+    const parsed = parseObsidianYaml(src);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+      throw new Error("Timeline spec must be a YAML object.");
+    }
+    return parsed;
+  }
+
+  return parseSimpleYAML(src);
+}
+
+function parseSimpleYAML(src) {
+  const lines = src.split(/\r?\n/);
   const root = {};
-  const stack = [{ obj: root, indent: -1 }];
-  let currentList = null;
+  const stack = [{ type: "object", value: root, indent: -1 }];
 
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i];
-    if (!raw.trim() || raw.trim().startsWith("#")) continue;
+    const trimmed = raw.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
 
     const indent = raw.search(/\S/);
-    const content = raw.trim();
+    while (stack.length > 1 && indent <= stack[stack.length - 1].indent) stack.pop();
 
-    if (content.startsWith("- ")) {
-      const val = content.slice(2).trim();
-      if (currentList === null) continue;
-      if (val.includes(": ")) {
-        const obj = {};
-        currentList.push(obj);
-        stack.push({ obj, indent: indent + 2 });
-        const colonIdx = val.indexOf(":");
-        const k = val.slice(0, colonIdx).trim();
-        const v = val.slice(colonIdx + 1).trim();
-        if (v !== "") obj[k] = coerce(v);
-      } else {
-        currentList.push(coerce(val));
-      }
+    const ctx = stack[stack.length - 1];
+    if (trimmed.startsWith("- ")) {
+      if (ctx.type !== "array") throw new Error("Invalid YAML list structure.");
+      pushListItem(lines, i, indent, trimmed.slice(2).trim(), ctx, stack);
       continue;
     }
 
-    const colonIdx = content.indexOf(":");
-    if (colonIdx === -1) continue;
-    const key = content.slice(0, colonIdx).trim();
-    const val = content.slice(colonIdx + 1).trim();
+    if (ctx.type !== "object") throw new Error("Invalid YAML object structure.");
+    const entry = splitKeyValue(trimmed);
+    if (!entry) continue;
 
-    while (stack.length > 1 && stack[stack.length - 1].indent >= indent) stack.pop();
-    const parent = stack[stack.length - 1].obj;
-
-    if (val === "") {
-      const next = lines[i + 1];
-      if (next && next.trim().startsWith("- ")) {
-        parent[key] = [];
-        currentList = parent[key];
-        stack.push({ obj: parent[key], indent });
-      } else {
-        const nested = {};
-        parent[key] = nested;
-        currentList = null;
-        stack.push({ obj: nested, indent });
-      }
-    } else {
-      parent[key] = coerce(val);
-      currentList = null;
+    if (entry.value === "") {
+      const child = createNestedContainer(lines, i + 1, indent);
+      ctx.value[entry.key] = child;
+      stack.push({
+        type: Array.isArray(child) ? "array" : "object",
+        value: child,
+        indent,
+      });
+      continue;
     }
+
+    ctx.value[entry.key] = coerce(entry.value);
   }
+
   return root;
 }
 
+function pushListItem(lines, lineIndex, indent, content, ctx, stack) {
+  if (content === "") {
+    const child = {};
+    ctx.value.push(child);
+    stack.push({ type: "object", value: child, indent });
+    return;
+  }
+
+  const entry = splitKeyValue(content);
+  if (!entry) {
+    ctx.value.push(coerce(content));
+    return;
+  }
+
+  const child = {};
+  ctx.value.push(child);
+  stack.push({ type: "object", value: child, indent });
+
+  if (entry.value === "") {
+    const nested = createNestedContainer(lines, lineIndex + 1, indent);
+    child[entry.key] = nested;
+    stack.push({
+      type: Array.isArray(nested) ? "array" : "object",
+      value: nested,
+      indent: indent + 1,
+    });
+    return;
+  }
+
+  child[entry.key] = coerce(entry.value);
+}
+
+function createNestedContainer(lines, startIndex, parentIndent) {
+  for (let i = startIndex; i < lines.length; i++) {
+    const raw = lines[i];
+    const trimmed = raw.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+
+    const indent = raw.search(/\S/);
+    if (indent <= parentIndent) break;
+    return trimmed.startsWith("- ") ? [] : {};
+  }
+
+  return {};
+}
+
+function splitKeyValue(content) {
+  const colonIdx = content.indexOf(":");
+  if (colonIdx === -1) return null;
+  return {
+    key: content.slice(0, colonIdx).trim(),
+    value: content.slice(colonIdx + 1).trim(),
+  };
+}
+
 function coerce(v) {
+  if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+    return v.slice(1, -1);
+  }
   if (v === "true") return true;
   if (v === "false") return false;
+  if (v === "null") return null;
   if (/^\d{4}-\d{2}-\d{2}$/.test(v)) return v;
   if (v !== "" && !isNaN(Number(v))) return Number(v);
   return v;

@@ -97,12 +97,12 @@ phases:
 
 ## Phase overview
 
-| Phase | Start | End | Duration |
-|---|---|---|---|
-| Vertical Slice | Mar 31 2026 | May 10 2026 | 6 weeks |
-| Alpha | May 11 2026 | Sep 06 2026 | ~17 weeks |
-| Beta | Sep 07 2026 | Jan 02 2027 | ~17 weeks |
-| Full Release | Jan 04 2027 | May 01 2027 | ~17 weeks |
+| Phase          | Start       | End         | Duration  |
+| -------------- | ----------- | ----------- | --------- |
+| Vertical Slice | Mar 31 2026 | May 10 2026 | 6 weeks   |
+| Alpha          | May 11 2026 | Sep 06 2026 | ~17 weeks |
+| Beta           | Sep 07 2026 | Jan 02 2027 | ~17 weeks |
+| Full Release   | Jan 04 2027 | May 01 2027 | ~17 weeks |
 
 ## Notes
 
