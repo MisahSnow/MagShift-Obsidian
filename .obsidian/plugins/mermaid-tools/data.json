@@ -786,7 +786,7 @@
     }
   ],
   "customCategories": [],
-  "selectedCategoryId": "flowchart",
+  "selectedCategoryId": "ganttChart",
   "defaultCategorySortOrders": {},
   "categoryModifications": {}
 }
