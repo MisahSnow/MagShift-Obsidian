@@ -1,0 +1,38 @@
+/* ── Dev Timeline Plugin Styles ─────────────────────────────────────────── */
+
+.dev-timeline-wrap {
+  margin: 16px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+}
+
+.dev-timeline-header {
+  padding: 14px 18px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dev-timeline-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-normal);
+  letter-spacing: 0.2px;
+}
+
+.dev-timeline-subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
+.dev-timeline-chart {
+  padding: 12px 16px 20px;
+  overflow-x: auto;
+}
+
+.dev-timeline-chart svg {
+  min-width: 500px;
+}
+
+/* Hover effect on task rows — handled via JS opacity, no extra CSS needed */

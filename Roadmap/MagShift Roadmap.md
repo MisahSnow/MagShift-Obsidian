@@ -5,49 +5,108 @@ updated: 2026-04-03
 
 # MagShift — development roadmap
 
-```mermaid
-gantt
-    title MagShift Roadmap
-    dateFormat YYYY-MM-DD
-    axisFormat %b '%y
+```dev-timeline
+title: MagShift Roadmap
+subtitle: Mar 2026 – May 2027  ·  4 phases  ·  18 tasks
 
-    section 🔷 Vertical Slice
-    Vehicle Garage           :done,      a1, 2026-03-31, 6d
-    Vehicle Upgrades L2      :           a2, 2026-04-06, 6d
-    Career Mode Tutorial     :           a3, 2026-04-13, 6d
-    Varoxis Maps x2          :           a4, 2026-04-19, 6d
-    Helios Maps x2           :           a5, 2026-04-26, 6d
-    VFX and SFX              :           a6, 2026-05-02, 4d
-    Bug Fixing               :           a7, 2026-05-06, 4d
-    ◆ Vertical Slice         :milestone, m1, 2026-05-10, 0d
+phases:
+  - label: Vertical Slice
+    color: purple
+    tasks:
+      - name: Vehicle Garage
+        start: 2026-03-31
+        end: 2026-04-06
+        done: true
+      - name: Vehicle Upgrades L2
+        start: 2026-04-06
+        end: 2026-04-12
+        active: true
+      - name: Career Mode Tutorial
+        start: 2026-04-13
+        end: 2026-04-19
+      - name: Varoxis Maps x2
+        start: 2026-04-19
+        end: 2026-04-25
+      - name: Helios Maps x2
+        start: 2026-04-26
+        end: 2026-05-02
+      - name: VFX and SFX
+        start: 2026-05-02
+        end: 2026-05-06
+      - name: Bug Fixing
+        start: 2026-05-06
+        end: 2026-05-10
+      - name: Vertical Slice
+        start: 2026-05-10
+        milestone: true
 
-    section 🟢 Alpha
-    Battle Mode              :           b1, 2026-05-11, 19d
-    Planet — Varoxis         :           b2, 2026-05-31, 19d
-    Planet — Helios          :           b3, 2026-06-20, 19d
-    Planet — Hydraxis        :           b4, 2026-07-08, 19d
-    Planet — Glacior         :           b5, 2026-07-27, 19d
-    Planet — Neon Prime      :           b6, 2026-08-17, 19d
-    ◆ Alpha Release          :milestone, m2, 2026-09-06, 0d
+  - label: Alpha
+    color: teal
+    tasks:
+      - name: Battle Mode
+        start: 2026-05-11
+        end: 2026-05-30
+      - name: Planet — Varoxis
+        start: 2026-05-31
+        end: 2026-06-19
+      - name: Planet — Helios
+        start: 2026-06-20
+        end: 2026-07-09
+      - name: Planet — Hydraxis
+        start: 2026-07-08
+        end: 2026-07-27
+      - name: Planet — Glacior
+        start: 2026-07-27
+        end: 2026-08-15
+      - name: Planet — Neon Prime
+        start: 2026-08-17
+        end: 2026-09-05
+      - name: Alpha Release
+        start: 2026-09-06
+        milestone: true
 
-    section 🟠 Beta
-    Final Content + Polish   :           c1, 2026-09-07, 119d
-    All Cutscenes            :           c2, 2026-09-17, 108d
-    Balance Pass             :           c3, 2026-09-24, 102d
-    ◆ Beta Release           :milestone, m3, 2027-01-02, 0d
+  - label: Beta
+    color: amber
+    tasks:
+      - name: Final Content + Polish
+        start: 2026-09-07
+        end: 2027-01-04
+      - name: All Cutscenes
+        start: 2026-09-17
+        end: 2027-01-03
+      - name: Balance Pass
+        start: 2026-09-24
+        end: 2027-01-04
+      - name: Beta Release
+        start: 2027-01-02
+        milestone: true
 
-    section 🔴 Full Release
-    Final Bug Fixing         :           d1, 2027-01-04, 119d
-    Final Balance            :           d2, 2027-01-20, 102d
-    ◆ Version 1.0            :milestone, m4, 2027-05-01, 0d
+  - label: Full Release
+    color: coral
+    tasks:
+      - name: Final Bug Fixing
+        start: 2027-01-04
+        end: 2027-05-03
+      - name: Final Balance
+        start: 2027-01-20
+        end: 2027-05-02
+      - name: Version 1.0
+        start: 2027-05-01
+        milestone: true
 ```
 
-## Phase summary
+## Phase overview
 
 | Phase | Start | End | Duration |
 |---|---|---|---|
-| Vertical Slice | 2026-03-31 | 2026-05-10 | 6 weeks |
-| Alpha | 2026-05-11 | 2026-09-06 | ~17 weeks |
-| Beta | 2026-09-07 | 2027-01-02 | ~17 weeks |
-| Full Release | 2027-01-04 | 2027-05-01 | ~17 weeks |
+| Vertical Slice | Mar 31 2026 | May 10 2026 | 6 weeks |
+| Alpha | May 11 2026 | Sep 06 2026 | ~17 weeks |
+| Beta | Sep 07 2026 | Jan 02 2027 | ~17 weeks |
+| Full Release | Jan 04 2027 | May 01 2027 | ~17 weeks |
 
+## Notes
+
+- **Vehicle Garage** ✅ complete
+- **Vehicle Upgrades L2** 🔄 in progress
+- Each Alpha planet = 19-day sprint
+- Beta tracks run in parallel — all targeting same Jan 02 release gate
