@@ -37,7 +37,7 @@
 			"width":260,
 			"height":60
 		},
-		{"id":"6aa0684dd40a234d","type":"link","url":"https://chatgpt.com/canvas/shared/69b5ec64c8e08191925a0f38cde99b2a","x":660,"y":2280,"width":1340,"height":1860},
+		{"id":"6aa0684dd40a234d","type":"link","url":"https://chatgpt.com/canvas/shared/69b5ec64c8e08191925a0f38cde99b2a","x":660,"y":2280,"width":1340,"height":2060},
 		{"id":"7abfbf60403c261c","type":"file","file":"Notes/Changes Since Last Dev Log.md","x":1020,"y":-620,"width":400,"height":400},
 		{
 			"id":"8f1307c8081ec076",
