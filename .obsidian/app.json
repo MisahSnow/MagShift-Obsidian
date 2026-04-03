@@ -1,4 +1,7 @@
 {
   "alwaysUpdateLinks": true,
-  "openBehavior": "file:Home.canvas"
+  "openBehavior": "file:Home.canvas",
+  "showInlineTitle": true,
+  "showLineNumber": false,
+  "readableLineLength": true
 }

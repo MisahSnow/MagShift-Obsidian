@@ -159,16 +159,205 @@ function fmtMonth(d) {
   return d.toLocaleString("default", { month: "short" }) + " '" + String(d.getFullYear()).slice(2);
 }
 
+function getPhasePalette(colorKey, isDark) {
+  const pal = PALETTE[colorKey] || PALETTE.purple;
+  return {
+    accent: isDark ? pal.dark : pal.light,
+    bg: isDark ? pal.bg_dark + "44" : pal.bg_light + "bb",
+    surface: isDark ? pal.bg_dark + "22" : pal.bg_light,
+  };
+}
+
+function clampPercent(value) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return null;
+  return Math.min(100, Math.max(0, num));
+}
+
+function isDateString(value) {
+  return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
+
+function calculateDateProgress(start, end) {
+  if (!isDateString(start) || !isDateString(end)) return null;
+  const startTime = pd(start).getTime();
+  const endTime = pd(end).getTime();
+  if (endTime <= startTime) return null;
+  const now = Date.now();
+  return clampPercent(((now - startTime) / (endTime - startTime)) * 100);
+}
+
+function getProgressValue(item) {
+  if (!item || typeof item !== "object") return null;
+
+  const explicit = clampPercent(item.progress);
+  if (explicit !== null) return explicit;
+  if (item.done === true) return 100;
+  if (item.active === true) return calculateDateProgress(item.start, item.end);
+  return null;
+}
+
+function normalizeSubtask(subtask, index) {
+  if (typeof subtask === "string") {
+    return {
+      name: subtask,
+      progress: 0,
+      done: false,
+      key: `subtask-${index}`,
+    };
+  }
+
+  const base = subtask && typeof subtask === "object" ? subtask : {};
+  const progress = getProgressValue(base);
+  const done = base.done === true || progress === 100;
+
+  return {
+    ...base,
+    name: base.name || base.label || base.title || `Subtask ${index + 1}`,
+    progress: done ? 100 : (progress ?? 0),
+    done,
+    key: base.id || base.name || `subtask-${index}`,
+  };
+}
+
+function normalizeTags(tags) {
+  if (Array.isArray(tags)) return tags.map(tag => String(tag).trim()).filter(Boolean);
+  if (typeof tags === "string") return tags.split(",").map(tag => tag.trim()).filter(Boolean);
+  return [];
+}
+
+function formatShortDate(value) {
+  if (!isDateString(value)) return value || "";
+  const date = pd(value);
+  return date.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+
+function normalizeKanbanTask(task, index) {
+  const base = task && typeof task === "object" ? task : { name: String(task || "") };
+  const subtasks = Array.isArray(base.subtasks) ? base.subtasks.map(normalizeSubtask) : [];
+  const ownProgress = getProgressValue(base);
+  const derivedProgress = subtasks.length
+    ? Math.round(subtasks.reduce((sum, subtask) => sum + subtask.progress, 0) / subtasks.length)
+    : null;
+  const progress = ownProgress ?? derivedProgress ?? 0;
+
+  return {
+    ...base,
+    name: base.name || base.label || base.title || `Task ${index + 1}`,
+    progress,
+    done: base.done === true || progress === 100,
+    subtasks,
+    tags: normalizeTags(base.tags),
+  };
+}
+
+function renderKanban(spec, container) {
+  const isDark = document.body.classList.contains("theme-dark");
+  const columns = (spec.columns || spec.phases || []).map((column, index) => {
+    const palette = getPhasePalette(column.color || DEFAULT_COLORS[index % DEFAULT_COLORS.length], isDark);
+    const tasks = (column.tasks || column.items || []).map(normalizeKanbanTask);
+    const avgProgress = tasks.length
+      ? Math.round(tasks.reduce((sum, task) => sum + task.progress, 0) / tasks.length)
+      : 0;
+
+    return {
+      ...column,
+      label: column.label || column.name || column.title || `Column ${index + 1}`,
+      tasks,
+      avgProgress,
+      ...palette,
+    };
+  });
+
+  if (!columns.length) return;
+
+  const wrap = container.createEl("div", { cls: "dev-kanban-wrap" });
+  if (spec.title || spec.subtitle) {
+    const hdr = wrap.createEl("div", { cls: "dev-timeline-header" });
+    if (spec.title) hdr.createEl("div", { cls: "dev-timeline-title", text: spec.title });
+    if (spec.subtitle) hdr.createEl("div", { cls: "dev-timeline-subtitle", text: spec.subtitle });
+  }
+
+  const board = wrap.createEl("div", { cls: "dev-kanban-board" });
+
+  columns.forEach(column => {
+    const columnEl = board.createEl("section", { cls: "dev-kanban-column" });
+    columnEl.style.setProperty("--dev-kanban-accent", column.accent);
+    columnEl.style.setProperty("--dev-kanban-surface", column.surface);
+
+    const columnHeader = columnEl.createEl("div", { cls: "dev-kanban-column-header" });
+    columnHeader.createEl("div", { cls: "dev-kanban-column-title", text: column.label });
+    columnHeader.createEl("div", {
+      cls: "dev-kanban-column-summary",
+      text: `${column.tasks.length} task${column.tasks.length === 1 ? "" : "s"} • ${column.avgProgress}% avg`,
+    });
+
+    const list = columnEl.createEl("div", { cls: "dev-kanban-list" });
+    column.tasks.forEach(task => {
+      const card = list.createEl("article", { cls: "dev-kanban-card" });
+
+      const cardHeader = card.createEl("div", { cls: "dev-kanban-card-header" });
+      cardHeader.createEl("div", { cls: "dev-kanban-card-title", text: task.name });
+      cardHeader.createEl("div", { cls: "dev-kanban-progress-pill", text: `${task.progress}%` });
+
+      const progressRow = card.createEl("div", { cls: "dev-kanban-progress-row" });
+      const progressTrack = progressRow.createEl("div", { cls: "dev-kanban-progress-track" });
+      const progressFill = progressTrack.createEl("div", { cls: "dev-kanban-progress-fill" });
+      progressFill.style.width = `${task.progress}%`;
+      progressFill.style.backgroundColor = column.accent;
+
+      if (task.note) {
+        card.createEl("div", { cls: "dev-kanban-note", text: String(task.note) });
+      }
+
+      const meta = [];
+      if (task.owner) meta.push(String(task.owner));
+      if (task.due) meta.push(`Due ${formatShortDate(task.due)}`);
+      if (task.status) meta.push(String(task.status));
+
+      if (meta.length) {
+        const metaRow = card.createEl("div", { cls: "dev-kanban-meta" });
+        meta.forEach(item => metaRow.createEl("span", { cls: "dev-kanban-chip", text: item }));
+      }
+
+      if (task.tags.length) {
+        const tagsRow = card.createEl("div", { cls: "dev-kanban-tags" });
+        task.tags.forEach(tag => tagsRow.createEl("span", { cls: "dev-kanban-tag", text: tag }));
+      }
+
+      if (task.subtasks.length) {
+        const subtasksWrap = card.createEl("div", { cls: "dev-kanban-subtasks" });
+        task.subtasks.forEach(subtask => {
+          const subtaskRow = subtasksWrap.createEl("div", { cls: "dev-kanban-subtask" });
+          const indicator = subtaskRow.createEl("div", { cls: "dev-kanban-subtask-indicator" });
+          indicator.setAttribute("data-state", subtask.done ? "done" : (subtask.progress > 0 ? "active" : "todo"));
+          indicator.style.borderColor = column.accent;
+          if (subtask.done) indicator.style.backgroundColor = column.accent;
+
+          const body = subtaskRow.createEl("div", { cls: "dev-kanban-subtask-body" });
+          body.createEl("div", { cls: "dev-kanban-subtask-name", text: subtask.name });
+
+          if (!subtask.done) {
+            const subProgressTrack = body.createEl("div", { cls: "dev-kanban-subtask-track" });
+            const subProgressFill = subProgressTrack.createEl("div", { cls: "dev-kanban-subtask-fill" });
+            subProgressFill.style.width = `${subtask.progress}%`;
+            subProgressFill.style.backgroundColor = column.accent;
+          }
+        });
+      }
+    });
+  });
+}
+
 function renderTimeline(spec, container) {
   const isDark = document.body.classList.contains("theme-dark");
 
   const phases = (spec.phases || []).map((p, i) => {
-    const colorKey = p.color || DEFAULT_COLORS[i % DEFAULT_COLORS.length];
-    const pal = PALETTE[colorKey] || PALETTE.purple;
+    const pal = getPhasePalette(p.color || DEFAULT_COLORS[i % DEFAULT_COLORS.length], isDark);
     return {
       ...p,
-      accent: isDark ? pal.dark : pal.light,
-      bg: isDark ? pal.bg_dark + "44" : pal.bg_light + "bb",
+      accent: pal.accent,
+      bg: pal.bg,
       tasks: (p.tasks || []).map(t => ({
         ...t,
         end: t.end || (t.start ? addDays(t.start, t.duration || 1) : t.start),
@@ -300,15 +489,28 @@ function renderTimeline(spec, container) {
   });
 }
 
+function renderSpec(spec, container, fallbackView) {
+  const view = String(spec.view || spec.type || fallbackView || "timeline").toLowerCase();
+  if (view === "kanban" || view === "board") {
+    renderKanban(spec, container);
+    return;
+  }
+
+  renderTimeline(spec, container);
+}
+
 module.exports = class DevTimelinePlugin extends Plugin {
   async onload() {
-    this.registerMarkdownCodeBlockProcessor("dev-timeline", (source, el, ctx) => {
+    const processor = (fallbackView) => (source, el) => {
       try {
         const spec = parseYAML(source);
-        renderTimeline(spec, el);
+        renderSpec(spec, el, fallbackView);
       } catch (err) {
         el.createEl("pre", { text: "dev-timeline error:\n" + err.message });
       }
-    });
+    };
+
+    this.registerMarkdownCodeBlockProcessor("dev-timeline", processor("timeline"));
+    this.registerMarkdownCodeBlockProcessor("dev-kanban", processor("kanban"));
   }
 };

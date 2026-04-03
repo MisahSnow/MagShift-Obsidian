@@ -3,6 +3,8 @@
 Renders beautiful interactive development timelines from a simple YAML
 code block. Automatically respects your Obsidian theme (light/dark).
 
+Also supports a kanban board view with task completion bars and subtasks.
+
 ---
 
 ## Installation
@@ -51,6 +53,54 @@ phases:
 ```
 ~~~
 
+You can also render a board view with `dev-kanban`:
+
+~~~markdown
+```dev-kanban
+title: Vertical Slice Board
+subtitle: Week of Apr 3
+
+columns:
+  - label: In Progress
+    color: purple
+    tasks:
+      - name: Vehicle Upgrades L2
+        progress: 72
+        owner: Jason
+        due: 2026-04-12
+        status: At Risk
+        note: Handling is stable, but upgrade UI still needs balancing.
+        subtasks:
+          - name: Upgrade stats tuning
+            done: true
+          - name: UI layout pass
+            progress: 80
+          - name: Save/load validation
+            progress: 35
+
+  - label: Up Next
+    color: teal
+    tasks:
+      - name: Career Mode Tutorial
+        owner: Jason
+        subtasks:
+          - name: Intro beats
+          - name: Objective scripting
+          - name: Checkpoint fail states
+
+  - label: Done
+    color: green
+    tasks:
+      - name: Vehicle Garage
+        done: true
+        tags:
+          - ui
+          - systems
+```
+~~~
+
+If you want to keep using `dev-timeline`, you can set `view: kanban` in the YAML instead.
+
 ---
 
 ## Task fields
@@ -72,6 +122,30 @@ phases:
 | `label` | string | Phase name |
 | `color` | string | One of: `purple`, `teal`, `amber`, `coral`, `blue`, `pink`, `green`, `red`, `gray` |
 | `tasks` | list | List of task objects |
+
+---
+
+## Kanban task fields
+
+| Field | Type | Description |
+|---|---|---|
+| `name` | string | Task title |
+| `progress` | number | 0-100 completion percentage |
+| `done` | boolean | Forces task to 100% |
+| `owner` | string | Optional owner badge |
+| `due` | YYYY-MM-DD | Optional due date chip |
+| `status` | string | Optional status chip |
+| `note` | string | Optional supporting text |
+| `tags` | list/string | Optional labels shown as pills |
+| `subtasks` | list | Checklist items, each with `name`, `progress`, or `done` |
+
+## Kanban column fields
+
+| Field | Type | Description |
+|---|---|---|
+| `label` | string | Column heading |
+| `color` | string | Accent color |
+| `tasks` / `items` | list | Cards rendered in that column |
 
 ---
 

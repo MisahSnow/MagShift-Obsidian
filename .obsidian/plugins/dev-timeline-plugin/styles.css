@@ -35,4 +35,191 @@
   min-width: 500px;
 }
 
+.dev-kanban-wrap {
+  margin: 16px 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  background:
+    radial-gradient(circle at top left, var(--background-secondary), transparent 45%),
+    var(--background-primary);
+}
+
+.dev-kanban-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  align-items: start;
+}
+
+.dev-kanban-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid var(--background-modifier-border);
+  background:
+    linear-gradient(180deg, var(--dev-kanban-surface), transparent 140px),
+    var(--background-secondary);
+  box-shadow: inset 3px 0 0 var(--dev-kanban-accent);
+}
+
+.dev-kanban-column-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dev-kanban-column-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-normal);
+}
+
+.dev-kanban-column-summary {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.dev-kanban-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dev-kanban-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.theme-dark .dev-kanban-card {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
+}
+
+.dev-kanban-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dev-kanban-card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-normal);
+  line-height: 1.4;
+}
+
+.dev-kanban-progress-pill {
+  flex: 0 0 auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  background: var(--dev-kanban-surface);
+}
+
+.dev-kanban-progress-row {
+  display: flex;
+  align-items: center;
+}
+
+.dev-kanban-progress-track,
+.dev-kanban-subtask-track {
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--background-modifier-border);
+}
+
+.dev-kanban-progress-fill,
+.dev-kanban-subtask-fill {
+  height: 100%;
+  border-radius: inherit;
+  transition: width 160ms ease;
+}
+
+.dev-kanban-note {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+.dev-kanban-meta,
+.dev-kanban-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.dev-kanban-chip,
+.dev-kanban-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--background-secondary-alt);
+}
+
+.dev-kanban-tag {
+  color: var(--text-normal);
+  background: var(--dev-kanban-surface);
+}
+
+.dev-kanban-subtasks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.dev-kanban-subtask {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  gap: 8px;
+  align-items: start;
+}
+
+.dev-kanban-subtask-indicator {
+  width: 14px;
+  height: 14px;
+  margin-top: 2px;
+  border: 2px solid var(--background-modifier-border);
+  border-radius: 999px;
+  background: transparent;
+}
+
+.dev-kanban-subtask-indicator[data-state="active"] {
+  box-shadow: inset 0 0 0 3px var(--dev-kanban-surface);
+}
+
+.dev-kanban-subtask-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dev-kanban-subtask-name {
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--text-normal);
+}
+
+.dev-kanban-subtask-track {
+  height: 6px;
+}
+
 /* Hover effect on task rows — handled via JS opacity, no extra CSS needed */
