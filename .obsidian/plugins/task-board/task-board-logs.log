@@ -1,0 +1,56 @@
+# Task Board Logs
+
+## System Information
+
+- **Obsidian version**: 1.12.7
+- **Installer version**: 1.12.4
+- **Operating system**: Windows 11 Pro 10.0.26100
+- **Use [[Wikilinks]]**: true
+- **Base color scheme**: dark
+- **Community theme**: none
+- **Snippets enabled**: 1
+- **Plugins installed**: 21
+- **Plugins enabled**: 
+  - Kanban v2.0.51
+  - Editing Toolbar v3.2.7
+  - Excalidraw v2.21.2
+  - Advanced Canvas v6.0.0
+  - GitHub Releases Sync v1.0.0
+  - Website Full Page Viewer v1.0.0
+  - Calendar v1.5.10
+  - GitHub Sync v1.0.6
+  - Mehrmaid v0.0.2
+  - Mermaid Tools v1.3.0
+  - Countdown To v1.5.0
+  - Nifty Links v1.4.0
+  - Iconize v2.14.7
+  - Dev Timeline v1.0.0
+  - Task Board v1.9.7
+
+## Recent Bug Reports
+
+Timestamp : 2026-04-03T21:45:44
+ID : 145
+Message : 
+Context : undefined
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry if this is appearing on the fresh install.
+Error: ENOENT: no such file or directory, open 'C:\Unity Projects\HoverVehicles\Documents\Obsidian\.obsidian\plugins\task-board\tasks.json'
+```
+
+-------------
+
+Timestamp : 2026-04-03T21:45:53
+ID : 131
+Message : 
+Context : TaskBoardViewContent.tsx/loading boards and tasks useEffect
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry about this bug, if its appearing on the fresh install.
+Error: ENOENT: no such file or directory, open 'C:\Unity Projects\HoverVehicles\Documents\Obsidian\.obsidian\plugins\task-board\tasks.json'
+```
