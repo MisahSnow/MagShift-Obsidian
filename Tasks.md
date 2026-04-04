@@ -6,16 +6,16 @@ kanban-plugin: board
 
 ## Today
 
+- [ ] Add Visual Upgrade to Vortex
 - [ ] Balance and add 3 Vehicles
+- [ ] Add Visual Upgrades to Third Vehicle
+- [ ] Add Third Vehicle
 - [ ] Add Vehicle Upgrade Visuals
 - [ ] Add [[Currency]]
 - [ ] Adjust Overcharge Boost Speed
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
 - [ ] Finish Pickup Icons
-- [ ] Add Visual Upgrade to Vortex
-- [ ] Add Visual Upgrades to Third Vehicle
-- [ ] Add Third Vehicle
 
 
 ## This Week
@@ -26,6 +26,7 @@ kanban-plugin: board
 - [ ] Add Humming Sound Effect to Mag Mine
 - [ ] Change Thrusters to blue
 - [ ] Try to make projectiles follow the track
+- [ ] Fix the way the Vortex Slides on walls
 
 
 ## Next Week
