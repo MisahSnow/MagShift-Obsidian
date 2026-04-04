@@ -1,10 +1,10 @@
 {
     "VaultName": "Obsidian",
-    "Modified_at": "2026-04-03T22:07:56",
+    "Modified_at": "2026-04-03T22:09:18",
     "Pending": {
         "Roadmap/Goals.md": [
             {
-                "id": "311926389",
+                "id": "1894670673",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Career Mode with 1st Cutscene leading into Tutorial",
@@ -32,7 +32,7 @@
                 "reminder": ""
             },
             {
-                "id": "2823543386",
+                "id": "1594228799",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Vehicle Garage with 3 vehicles to buy 📅 2026-04-03 ⛔ 1, 1",
@@ -63,7 +63,7 @@
                 "reminder": ""
             },
             {
-                "id": "3876445497",
+                "id": "4284242008",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Vehicle Upgrades up to Level 3 📅 2026-04-03",
@@ -91,7 +91,7 @@
                 "reminder": ""
             },
             {
-                "id": "2513552264",
+                "id": "1856792841",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] 2 Varoxis Maps Mostly Complete",
@@ -119,7 +119,7 @@
                 "reminder": ""
             },
             {
-                "id": "2136166814",
+                "id": "2991847161",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] 2 Helios Maps Mostly Complete",
@@ -147,7 +147,7 @@
                 "reminder": ""
             },
             {
-                "id": "2432801938",
+                "id": "2292677590",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] VFX and SFX In place where needed",
@@ -175,7 +175,7 @@
                 "reminder": ""
             },
             {
-                "id": "2242167596",
+                "id": "2145595091",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Majority of bugs fixed",
@@ -203,7 +203,7 @@
                 "reminder": ""
             },
             {
-                "id": "3350804757",
+                "id": "3844694035",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Battle Mode complete, 1 Level per Planet",
@@ -231,7 +231,7 @@
                 "reminder": ""
             },
             {
-                "id": "3146882535",
+                "id": "2419435082",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Career Mode: 6 Planets, 3 levels each, pre-polish",
@@ -259,7 +259,7 @@
                 "reminder": ""
             },
             {
-                "id": "3652829845",
+                "id": "255887701",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Varoxis",
@@ -287,7 +287,7 @@
                 "reminder": ""
             },
             {
-                "id": "565727343",
+                "id": "624800393",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Helios",
@@ -315,7 +315,7 @@
                 "reminder": ""
             },
             {
-                "id": "1495198496",
+                "id": "786180491",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Hydraxis",
@@ -341,7 +341,7 @@
                 "reminder": ""
             },
             {
-                "id": "1073770537",
+                "id": "570034541",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Glacior",
@@ -367,7 +367,7 @@
                 "reminder": ""
             },
             {
-                "id": "1741729980",
+                "id": "3889029657",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Neon Prime",
@@ -393,7 +393,7 @@
                 "reminder": ""
             },
             {
-                "id": "1163975886",
+                "id": "205340052",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Everything Complete, Mostly just touch ups for polish",
@@ -421,7 +421,7 @@
                 "reminder": ""
             },
             {
-                "id": "3376518740",
+                "id": "749975847",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Game Mostly Balanced from Alpha Player Feedback",
@@ -449,7 +449,7 @@
                 "reminder": ""
             },
             {
-                "id": "3947153571",
+                "id": "1277845959",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] All Cutscenes Complete",
@@ -477,7 +477,7 @@
                 "reminder": ""
             },
             {
-                "id": "2197200678",
+                "id": "534855885",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] All Identifiable bugs are fixed and the game is fully polished and ready for release",
@@ -505,7 +505,7 @@
                 "reminder": ""
             },
             {
-                "id": "3387295331",
+                "id": "3923098080",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Game as Balanced as we can get it",

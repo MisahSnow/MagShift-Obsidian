@@ -13,6 +13,9 @@ kanban-plugin: board
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
 - [ ] Finish Pickup Icons
+- [ ] Add Visual Upgrade to Vortex
+- [ ] Add Visual Upgrades to Third Vehicle
+- [ ] Add Third Vehicle
 
 
 ## This Week
