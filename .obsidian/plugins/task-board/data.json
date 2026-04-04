@@ -96,6 +96,10 @@
           "minimized": [],
           "maxHeight": "300px",
           "verticalHeaderUI": false
+        },
+        "taskCount": {
+          "pending": 61,
+          "completed": 12
         }
       },
       {
@@ -162,6 +166,10 @@
           "minimized": [],
           "maxHeight": "300px",
           "verticalHeaderUI": false
+        },
+        "taskCount": {
+          "pending": 1,
+          "completed": 0
         }
       },
       {
@@ -238,6 +246,10 @@
           "minimized": [],
           "maxHeight": "300px",
           "verticalHeaderUI": false
+        },
+        "taskCount": {
+          "pending": 61,
+          "completed": 12
         }
       }
     ],
@@ -489,7 +501,7 @@
       ],
       "hiddenTaskProperties": [],
       "autoAddUniqueID": false,
-      "uniqueIdCounter": 0,
+      "uniqueIdCounter": 1,
       "experimentalFeatures": false,
       "safeGuardFeature": true,
       "lastViewHistory": {
@@ -508,7 +520,8 @@
         "showMinimap": true,
         "renderVisibleNodes": false,
         "edgeType": "default"
-      }
+      },
+      "searchQuery": ""
     }
   }
 }
