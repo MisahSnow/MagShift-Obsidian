@@ -73,10 +73,23 @@ Both newId and legacyId are undefined for the selected task titled - [ ] Add Spe
 Timestamp : 2026-04-03T21:53:35
 ID : 142
 Message : 
-Context : DragDropTasksManager.ts/handleDropEvent
+Context : undefined
 Version : 1.9.7
 
 #### Bug Content
 ```log
 No current drag data available for drop operation.currentDragData=null
+```
+
+-------------
+
+Timestamp : 2026-04-03T22:02:22
+ID : 26
+Message : Child task not found
+Context : AddOrEditTaskModal.tsx/EditTaskContent/handleOpenChildTaskModal
+Version : 1.9.7
+
+#### Bug Content
+```log
+The child task with ID 1 was not found in pending tasks.
 ```

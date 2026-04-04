@@ -168,8 +168,8 @@
           "verticalHeaderUI": false
         },
         "taskCount": {
-          "pending": 1,
-          "completed": 0
+          "pending": 61,
+          "completed": 12
         }
       },
       {
@@ -507,7 +507,8 @@
       "lastViewHistory": {
         "viewedType": "kanban",
         "boardIndex": 0,
-        "settingTab": 0
+        "settingTab": 0,
+        "taskId": ""
       },
       "boundTaskCompletionToChildTasks": false,
       "mapView": {
@@ -521,7 +522,7 @@
         "renderVisibleNodes": false,
         "edgeType": "default"
       },
-      "searchQuery": ""
+      "searchQuery": "vehi"
     }
   }
 }

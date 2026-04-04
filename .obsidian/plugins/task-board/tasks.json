@@ -1,10 +1,10 @@
 {
     "VaultName": "Obsidian",
-    "Modified_at": "2026-04-03T21:57:10",
+    "Modified_at": "2026-04-03T22:07:56",
     "Pending": {
         "Roadmap/Goals.md": [
             {
-                "id": "1815552812",
+                "id": "311926389",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Career Mode with 1st Cutscene leading into Tutorial",
@@ -32,10 +32,10 @@
                 "reminder": ""
             },
             {
-                "id": "4058625231",
+                "id": "2823543386",
                 "legacyId": "",
                 "status": " ",
-                "title": "- [ ] Vehicle Garage with 3 vehicles to buy 📅 2026-04-03 ⛔ 1",
+                "title": "- [ ] Vehicle Garage with 3 vehicles to buy 📅 2026-04-03 ⛔ 1, 1",
                 "body": [
                     "\tTarget: [[2026-04-05]]"
                 ],
@@ -48,6 +48,7 @@
                 "frontmatterTags": [],
                 "priority": 0,
                 "dependsOn": [
+                    "1",
                     "1"
                 ],
                 "filePath": "Roadmap/Goals.md",
@@ -62,10 +63,10 @@
                 "reminder": ""
             },
             {
-                "id": "1175887228",
+                "id": "3876445497",
                 "legacyId": "",
                 "status": " ",
-                "title": "- [ ] Vehicle Upgrades up to Level 3",
+                "title": "- [ ] Vehicle Upgrades up to Level 3 📅 2026-04-03",
                 "body": [
                     "\tTarget: [[2026-04-12]]"
                 ],
@@ -73,7 +74,7 @@
                 "createdDate": "",
                 "startDate": "",
                 "scheduledDate": "",
-                "due": "",
+                "due": "2026-04-03",
                 "tags": [],
                 "frontmatterTags": [],
                 "priority": 0,
@@ -90,7 +91,7 @@
                 "reminder": ""
             },
             {
-                "id": "1837840783",
+                "id": "2513552264",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] 2 Varoxis Maps Mostly Complete",
@@ -118,7 +119,7 @@
                 "reminder": ""
             },
             {
-                "id": "3233078878",
+                "id": "2136166814",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] 2 Helios Maps Mostly Complete",
@@ -146,7 +147,7 @@
                 "reminder": ""
             },
             {
-                "id": "4035718790",
+                "id": "2432801938",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] VFX and SFX In place where needed",
@@ -174,7 +175,7 @@
                 "reminder": ""
             },
             {
-                "id": "27345324",
+                "id": "2242167596",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Majority of bugs fixed",
@@ -202,7 +203,7 @@
                 "reminder": ""
             },
             {
-                "id": "2657408264",
+                "id": "3350804757",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Battle Mode complete, 1 Level per Planet",
@@ -230,7 +231,7 @@
                 "reminder": ""
             },
             {
-                "id": "2401630872",
+                "id": "3146882535",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Career Mode: 6 Planets, 3 levels each, pre-polish",
@@ -258,7 +259,7 @@
                 "reminder": ""
             },
             {
-                "id": "3158283660",
+                "id": "3652829845",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Varoxis",
@@ -286,7 +287,7 @@
                 "reminder": ""
             },
             {
-                "id": "2386877740",
+                "id": "565727343",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Helios",
@@ -314,7 +315,7 @@
                 "reminder": ""
             },
             {
-                "id": "2029972953",
+                "id": "1495198496",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Hydraxis",
@@ -340,7 +341,7 @@
                 "reminder": ""
             },
             {
-                "id": "2097376246",
+                "id": "1073770537",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Glacior",
@@ -366,7 +367,7 @@
                 "reminder": ""
             },
             {
-                "id": "2489026673",
+                "id": "1741729980",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Planet - Neon Prime",
@@ -392,7 +393,7 @@
                 "reminder": ""
             },
             {
-                "id": "3473370355",
+                "id": "1163975886",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Everything Complete, Mostly just touch ups for polish",
@@ -420,7 +421,7 @@
                 "reminder": ""
             },
             {
-                "id": "3925247027",
+                "id": "3376518740",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Game Mostly Balanced from Alpha Player Feedback",
@@ -448,7 +449,7 @@
                 "reminder": ""
             },
             {
-                "id": "2839061728",
+                "id": "3947153571",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] All Cutscenes Complete",
@@ -476,7 +477,7 @@
                 "reminder": ""
             },
             {
-                "id": "2263950217",
+                "id": "2197200678",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] All Identifiable bugs are fixed and the game is fully polished and ready for release",
@@ -504,7 +505,7 @@
                 "reminder": ""
             },
             {
-                "id": "11976616",
+                "id": "3387295331",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Game as Balanced as we can get it",
@@ -534,8 +535,8 @@
         ],
         "Tasks.md": [
             {
-                "id": "3264198637",
-                "legacyId": "",
+                "id": "728366829",
+                "legacyId": "1",
                 "status": " ",
                 "title": "- [ ] Balance and add 3 Vehicles",
                 "body": [],
@@ -560,10 +561,10 @@
                 "reminder": ""
             },
             {
-                "id": "3512260671",
-                "legacyId": "",
+                "id": "2311390459",
+                "legacyId": "1",
                 "status": " ",
-                "title": "- [ ] Add [[Currency]]",
+                "title": "- [ ] Add Vehicle Upgrade Visuals",
                 "body": [],
                 "time": "",
                 "createdDate": "",
@@ -579,17 +580,17 @@
                     "startLine": 10,
                     "startCharIndex": 0,
                     "endLine": 10,
-                    "endCharIndex": 22
+                    "endCharIndex": 33
                 },
                 "completion": "",
                 "cancelledDate": "",
                 "reminder": ""
             },
             {
-                "id": "1603649630",
+                "id": "3151465255",
                 "legacyId": "",
                 "status": " ",
-                "title": "- [ ] Add Vehicle Upgrade Visuals",
+                "title": "- [ ] Add [[Currency]]",
                 "body": [],
                 "time": "",
                 "createdDate": "",
@@ -605,14 +606,14 @@
                     "startLine": 11,
                     "startCharIndex": 0,
                     "endLine": 11,
-                    "endCharIndex": 33
+                    "endCharIndex": 22
                 },
                 "completion": "",
                 "cancelledDate": "",
                 "reminder": ""
             },
             {
-                "id": "1011462861",
+                "id": "506840747",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Adjust Overcharge Boost Speed",
@@ -638,7 +639,7 @@
                 "reminder": ""
             },
             {
-                "id": "2287443602",
+                "id": "2665582091",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add [[Time Attack Mode]]",
@@ -664,7 +665,7 @@
                 "reminder": ""
             },
             {
-                "id": "3810866043",
+                "id": "3492338777",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Elimination Mode",
@@ -690,7 +691,7 @@
                 "reminder": ""
             },
             {
-                "id": "3946810938",
+                "id": "1015542120",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Finish Pickup Icons",
@@ -716,7 +717,7 @@
                 "reminder": ""
             },
             {
-                "id": "2794595643",
+                "id": "4197884689",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Organize Project ^ogn69x",
@@ -742,7 +743,7 @@
                 "reminder": ""
             },
             {
-                "id": "2812025286",
+                "id": "2974242357",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Find Mag Mine Visual (Try Plasma Shader)",
@@ -768,7 +769,7 @@
                 "reminder": ""
             },
             {
-                "id": "934179255",
+                "id": "1269769729",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Fix Mag Mine Mechanics (Make Magmine explode instead of trapping you)",
@@ -794,7 +795,7 @@
                 "reminder": ""
             },
             {
-                "id": "3319380458",
+                "id": "78833176",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Humming Sound Effect to Mag Mine",
@@ -820,7 +821,7 @@
                 "reminder": ""
             },
             {
-                "id": "3626457987",
+                "id": "3572084085",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Change Thrusters to blue",
@@ -846,7 +847,7 @@
                 "reminder": ""
             },
             {
-                "id": "3828660831",
+                "id": "933592366",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Try to make projectiles follow the track",
@@ -872,7 +873,7 @@
                 "reminder": ""
             },
             {
-                "id": "3713669973",
+                "id": "1155107976",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Tutorial Level",
@@ -898,7 +899,7 @@
                 "reminder": ""
             },
             {
-                "id": "478288426",
+                "id": "2448601264",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Polish Varoxis Refinery",
@@ -924,7 +925,7 @@
                 "reminder": ""
             },
             {
-                "id": "2540627496",
+                "id": "295204798",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Polish Varoxis Mines",
@@ -950,7 +951,7 @@
                 "reminder": ""
             },
             {
-                "id": "1307648193",
+                "id": "444359120",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Create Lore Guide for Helios",
@@ -976,7 +977,7 @@
                 "reminder": ""
             },
             {
-                "id": "3812501727",
+                "id": "3293042036",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Polish Helios Wasteland",
@@ -1002,7 +1003,7 @@
                 "reminder": ""
             },
             {
-                "id": "3364345298",
+                "id": "199457554",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Create Helios Map 2",
@@ -1028,7 +1029,7 @@
                 "reminder": ""
             },
             {
-                "id": "3492334353",
+                "id": "504772700",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add steering threshold to keyboard controls",
@@ -1054,7 +1055,7 @@
                 "reminder": ""
             },
             {
-                "id": "2608001604",
+                "id": "1516344217",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Create Lore Guide for Spectre Media",
@@ -1080,7 +1081,7 @@
                 "reminder": ""
             },
             {
-                "id": "318048063",
+                "id": "693516738",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Indicators for when you get hit by a power up",
@@ -1106,7 +1107,7 @@
                 "reminder": ""
             },
             {
-                "id": "2498293375",
+                "id": "3129018226",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Finish Battle Mode Prototype",
@@ -1132,7 +1133,7 @@
                 "reminder": ""
             },
             {
-                "id": "3126662094",
+                "id": "2512844096",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Multiple Driving Camera Angles (Possible Cockpit View?)",
@@ -1158,7 +1159,7 @@
                 "reminder": ""
             },
             {
-                "id": "3428485988",
+                "id": "1119573601",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Work on Branching Paths in Track Path System (Maybe?)",
@@ -1184,7 +1185,7 @@
                 "reminder": ""
             },
             {
-                "id": "2930835486",
+                "id": "3650237523",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Reconsider [[Scatter Shot]] Pickup",
@@ -1210,7 +1211,7 @@
                 "reminder": ""
             },
             {
-                "id": "1557288603",
+                "id": "3485937584",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Reconsider [[Chain Lightning]] Pickup",
@@ -1236,7 +1237,7 @@
                 "reminder": ""
             },
             {
-                "id": "3724372454",
+                "id": "1385776751",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Balance Pass",
@@ -1262,7 +1263,7 @@
                 "reminder": ""
             },
             {
-                "id": "3659350438",
+                "id": "1987987289",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] VFX Pass",
@@ -1288,7 +1289,7 @@
                 "reminder": ""
             },
             {
-                "id": "4237973509",
+                "id": "2981954448",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] SFX Pass",
@@ -1314,7 +1315,7 @@
                 "reminder": ""
             },
             {
-                "id": "2542042647",
+                "id": "152870262",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] First Time Player Career Menu Flow:",
@@ -1340,7 +1341,7 @@
                 "reminder": ""
             },
             {
-                "id": "90283971",
+                "id": "907997778",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Check out Project Auditor",
@@ -1366,7 +1367,7 @@
                 "reminder": ""
             },
             {
-                "id": "1498370410",
+                "id": "197248715",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Volume Options to main menu and pause menu",
@@ -1392,7 +1393,7 @@
                 "reminder": ""
             },
             {
-                "id": "2175044551",
+                "id": "85688637",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Balance Pickups and improve pickup visuals and sounds",
@@ -1418,7 +1419,7 @@
                 "reminder": ""
             },
             {
-                "id": "2269290596",
+                "id": "4037443163",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Sound FX For Vehicle Crashes",
@@ -1444,7 +1445,7 @@
                 "reminder": ""
             },
             {
-                "id": "512073758",
+                "id": "3574908306",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Disable player collision when they're dead, for a short period after respawn, and if they're EMPed",
@@ -1470,7 +1471,7 @@
                 "reminder": ""
             },
             {
-                "id": "788814913",
+                "id": "2741331912",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add [[Phase Shift]] Pickup",
@@ -1496,7 +1497,7 @@
                 "reminder": ""
             },
             {
-                "id": "1459747149",
+                "id": "1118930380",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add [[Missile]] Pickup",
@@ -1522,7 +1523,7 @@
                 "reminder": ""
             },
             {
-                "id": "602736420",
+                "id": "3709185605",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Fix Rockets",
@@ -1548,7 +1549,7 @@
                 "reminder": ""
             },
             {
-                "id": "221562911",
+                "id": "2350444775",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Create Garage for Career Mode (Vehicle Selection)",
@@ -1574,7 +1575,7 @@
                 "reminder": ""
             },
             {
-                "id": "3771525282",
+                "id": "3623453360",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Create Vehicle Shop to add Vehicles to Garage",
@@ -1600,7 +1601,7 @@
                 "reminder": ""
             },
             {
-                "id": "1125124952",
+                "id": "27881800",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Add Vehicle Upgrades System to Garage",
@@ -1626,7 +1627,6 @@
                 "reminder": ""
             }
         ],
-        "Meta/Task_Board/New_Tasks.md": [],
         "World Building/Lore/Planets/Varoxis.md": [],
         "Scripts/Devlogs/Devlog #2.md": [],
         "Scripts/Cutscenes/Varoxis Pre-Last Race Cutscene.md": [],
@@ -1663,14 +1663,14 @@
         "Game Mechanics/Pickups/Descriptions/EMP Wave.md": [],
         "Game Mechanics/Pickups/Descriptions/Chain Lightning.md": [],
         "Game Mechanics/Gamemodes/Time Attack Mode.md": [],
-        "Excalidraw/Loser Storyboard.md": []
+        "Excalidraw/Loser Storyboard.md": [],
+        "Meta/Task_Board/New_Tasks.md": []
     },
     "Completed": {
-        "Meta/Task_Board/New_Tasks.md": [],
         "World Building/Lore/Planets/Varoxis.md": [],
         "Tasks.md": [
             {
-                "id": "4248989054",
+                "id": "3652126742",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Add screen shake on collision, shake strength based on how hard the collision is",
@@ -1696,7 +1696,7 @@
                 "reminder": ""
             },
             {
-                "id": "971689043",
+                "id": "3461418242",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Update Ion Blast to require Hold to Charge, creating a bigger more powerful laser the longer you charge",
@@ -1722,7 +1722,7 @@
                 "reminder": ""
             },
             {
-                "id": "557215744",
+                "id": "3658712685",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Create Health System for Racer and Damage",
@@ -1748,7 +1748,7 @@
                 "reminder": ""
             },
             {
-                "id": "3052290233",
+                "id": "2317825082",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Add Plasma Cannon Pickup [[Plasma Cannon]]",
@@ -1774,7 +1774,7 @@
                 "reminder": ""
             },
             {
-                "id": "1321585398",
+                "id": "309878134",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Add Health Pickup [[Health]]",
@@ -1800,7 +1800,7 @@
                 "reminder": ""
             },
             {
-                "id": "1231281364",
+                "id": "1043327451",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Make Final Decision about Water Implimentation",
@@ -1826,7 +1826,7 @@
                 "reminder": ""
             },
             {
-                "id": "2567157841",
+                "id": "1026054213",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Add Rockets Pickup [[Rockets]]",
@@ -1852,7 +1852,7 @@
                 "reminder": ""
             },
             {
-                "id": "97980322",
+                "id": "1506945146",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Fix race not ending",
@@ -1878,7 +1878,7 @@
                 "reminder": ""
             },
             {
-                "id": "1699184478",
+                "id": "703953545",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Fix Career mode Planet Selection Screen Bug (Planets in wrong place when returning to menu from race)",
@@ -1904,7 +1904,7 @@
                 "reminder": ""
             },
             {
-                "id": "3153344082",
+                "id": "939028108",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Add Forcefield over Varoxis Refinery",
@@ -1930,7 +1930,7 @@
                 "reminder": ""
             },
             {
-                "id": "3963293132",
+                "id": "1685450139",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Make it so pickups have a seperate audio source from the Engine",
@@ -1956,7 +1956,7 @@
                 "reminder": ""
             },
             {
-                "id": "2248952944",
+                "id": "4228796303",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] Make overcharge boost slower",
@@ -2017,6 +2017,7 @@
         "Game Mechanics/Pickups/Descriptions/EMP Wave.md": [],
         "Game Mechanics/Pickups/Descriptions/Chain Lightning.md": [],
         "Game Mechanics/Gamemodes/Time Attack Mode.md": [],
-        "Excalidraw/Loser Storyboard.md": []
+        "Excalidraw/Loser Storyboard.md": [],
+        "Meta/Task_Board/New_Tasks.md": []
     }
 }

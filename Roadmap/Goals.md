@@ -8,9 +8,9 @@ kanban-plugin: board
 
 - [ ] Career Mode with 1st Cutscene leading into Tutorial 
 	Target: [[2026-04-18]]
-- [ ] Vehicle Garage with 3 vehicles to buy 📅 2026-04-03 ⛔ 1 
+- [ ] Vehicle Garage with 3 vehicles to buy 📅 2026-04-03 ⛔ 1, 1
 	Target: [[2026-04-05]]
-- [ ] Vehicle Upgrades up to Level 3
+- [ ] Vehicle Upgrades up to Level 3 📅 2026-04-03
 	Target: [[2026-04-12]]
 - [ ] 2 Varoxis Maps Mostly Complete 
 	Target: [[2026-04-25]]

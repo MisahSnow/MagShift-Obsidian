@@ -7,8 +7,8 @@ kanban-plugin: board
 ## Today
 
 - [ ] Balance and add 3 Vehicles
-- [ ] Add [[Currency]]
 - [ ] Add Vehicle Upgrade Visuals
+- [ ] Add [[Currency]]
 - [ ] Adjust Overcharge Boost Speed
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
