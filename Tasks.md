@@ -16,6 +16,7 @@ kanban-plugin: board
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
 - [ ] Finish Pickup Icons
+- [ ] Get Footage for Devlog
 
 
 ## This Week
