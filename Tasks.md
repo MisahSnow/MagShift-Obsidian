@@ -9,7 +9,6 @@ kanban-plugin: board
 - [ ] Add Visual Upgrade to Vortex
 - [ ] Balance and add 3 Vehicles
 - [ ] Add Visual Upgrades to Third Vehicle
-- [ ] Add Third Vehicle
 - [ ] Add Vehicle Upgrade Visuals
 - [ ] Add [[Currency]]
 - [ ] Adjust Overcharge Boost Speed
@@ -17,6 +16,7 @@ kanban-plugin: board
 - [ ] Add Elimination Mode
 - [ ] Finish Pickup Icons
 - [ ] Get Footage for Devlog
+- [ ] Add Upgrade Visuals to Obsidius
 
 
 ## This Week
@@ -93,6 +93,7 @@ kanban-plugin: board
 - [ ] Create Garage for Career Mode (Vehicle Selection)
 - [ ] Create Vehicle Shop to add Vehicles to Garage
 - [ ] Add Vehicle Upgrades System to Garage
+- [ ] Add Third Vehicle
 
 %% kanban:settings
 ```

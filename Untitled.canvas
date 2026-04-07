@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"e9f5d06052cd4af3",
+			"type":"text",
+			"text":"Add Acceleration Upgrade Visuals",
+			"styleAttributes":{},
+			"x":-620,
+			"y":-200,
+			"width":300,
+			"height":60
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
