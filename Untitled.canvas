@@ -283,7 +283,7 @@
 		{
 			"id":"dcb143512a74a152",
 			"type":"text",
-			"text":"- [x] Level 1",
+			"text":"- [ ] Level 1",
 			"styleAttributes":{},
 			"x":-50,
 			"y":-1550,
@@ -303,7 +303,7 @@
 		{
 			"id":"d5e9e6fbbc52e16a",
 			"type":"text",
-			"text":"- [x] Obsidious",
+			"text":"- [ ] Obsidious",
 			"styleAttributes":{},
 			"x":-365,
 			"y":-1460,
@@ -313,7 +313,7 @@
 		{
 			"id":"bfd0e662cd2ce52b",
 			"type":"text",
-			"text":"- [x] Level 2",
+			"text":"- [ ] Level 2",
 			"styleAttributes":{},
 			"x":-50,
 			"y":-1460,
@@ -323,7 +323,7 @@
 		{
 			"id":"97ba77a05ac05d43",
 			"type":"text",
-			"text":"- [x] Level 3",
+			"text":"- [ ] Level 3",
 			"styleAttributes":{},
 			"x":-50,
 			"y":-1370,
