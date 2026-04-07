@@ -6,10 +6,8 @@ kanban-plugin: board
 
 ## Today
 
-- [ ] Add Visual Upgrade to Vortex
-- [ ] Balance and add 3 Vehicles
-- [ ] Add Visual Upgrades to Third Vehicle
 - [ ] Add Vehicle Upgrade Visuals
+- [ ] Balance and add 3 Vehicles
 - [ ] Add [[Currency]]
 - [ ] Adjust Overcharge Boost Speed
 - [ ] Add [[Time Attack Mode]]
@@ -94,6 +92,7 @@ kanban-plugin: board
 - [ ] Create Vehicle Shop to add Vehicles to Garage
 - [ ] Add Vehicle Upgrades System to Garage
 - [ ] Add Third Vehicle
+- [ ] Add Visual Upgrade to Vortex
 
 %% kanban:settings
 ```

@@ -93,7 +93,7 @@
 		{
 			"id":"228fe7c422f066db",
 			"type":"text",
-			"text":"- [x] Level 2",
+			"text":"- [ ] Level 2",
 			"styleAttributes":{},
 			"x":-50,
 			"y":-20,
@@ -103,7 +103,7 @@
 		{
 			"id":"3f58680a338f42c9",
 			"type":"text",
-			"text":"- [x] Level 1",
+			"text":"- [ ] Level 1",
 			"styleAttributes":{},
 			"x":-50,
 			"y":-110,
@@ -388,6 +388,16 @@
 			"x":-900,
 			"y":700,
 			"width":320,
+			"height":60
+		},
+		{
+			"id":"dcdb013e8270c43e",
+			"type":"text",
+			"text":"- [ ] Add Upgrade Visuals",
+			"styleAttributes":{},
+			"x":-1560,
+			"y":-390,
+			"width":220,
 			"height":60
 		}
 	],
@@ -714,6 +724,34 @@
 			"fromNode":"26d3df25cd5b47fc",
 			"fromSide":"right",
 			"toNode":"7a6e4a03a5779a13",
+			"toSide":"left"
+		},
+		{
+			"id":"08d68a69a9042a3c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dcdb013e8270c43e",
+			"fromSide":"right",
+			"toNode":"26d3df25cd5b47fc",
+			"toSide":"left"
+		},
+		{
+			"id":"150b59db98b4dc4b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dcdb013e8270c43e",
+			"fromSide":"right",
+			"toNode":"e9f5d06052cd4af3",
+			"toSide":"left"
+		},
+		{
+			"id":"329ed2d9bb286fd7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dcdb013e8270c43e",
+			"fromSide":"right",
+			"toNode":"e2d62015ab25aff6",
 			"toSide":"left"
 		}
 	],
