@@ -1,11 +1,14 @@
 ## GitHub Commit Log
 
 Repository: [MisahSnow/MagShift](https://github.com/MisahSnow/MagShift/commits)
-Updated: 2026-04-10 00:41 UTC
+Updated: 2026-04-10 03:35 UTC
 Showing: 25 commits
 
 | Commit | Date | Author | Message |
 | --- | --- | --- | --- |
+| [`34633d4`](https://github.com/MisahSnow/MagShift/commit/34633d4fecfd43c0168ecb32073574a95beb7280) | 2026-04-10 | MisahSnow | Hover Vehicle Controller Code Split |
+| [`953dbfb`](https://github.com/MisahSnow/MagShift/commit/953dbfb95c142439325552c515b2ffba3a010fd4) | 2026-04-10 | MisahSnow | Codebase improvements/refactor |
+| [`ce27848`](https://github.com/MisahSnow/MagShift/commit/ce278488edf6886272d93b17eb7d77157e663907) | 2026-04-09 | MisahSnow | Add race end refactor design spec |
 | [`6434f14`](https://github.com/MisahSnow/MagShift/commit/6434f141dcdd94a78a2a2c9d139e8668c200358e) | 2026-04-03 | MisahSnow | - Refactored speed-pad cooldown tracking in `SpeedBoostTrigger.cs` to be per-vehicle-controller i... |
 | [`3234d23`](https://github.com/MisahSnow/MagShift/commit/3234d23ca63598767fb7a67e062aa4f4dab2817e) | 2026-04-02 | MisahSnow | Remove Garage UI builder and runtime fallback |
 | [`48f7256`](https://github.com/MisahSnow/MagShift/commit/48f7256896f03d32f015cc09aa9446dfb5cc07b7) | 2026-04-02 | MisahSnow | Add editable thruster mounts and ramp debuff ignore distance |
@@ -28,6 +31,3 @@ Showing: 25 commits
 | [`777ba64`](https://github.com/MisahSnow/MagShift/commit/777ba645fa18d3c362e96854ba6c9e020115e62c) | 2026-03-24 | MisahSnow | Tune ramp hover behavior and add race launcher toolbar button |
 | [`639c02d`](https://github.com/MisahSnow/MagShift/commit/639c02d5241b9969512e17f7d42f3f64571b5fe5) | 2026-03-23 | MisahSnow | Refine combat pickups and scenario launcher controls |
 | [`a815870`](https://github.com/MisahSnow/MagShift/commit/a815870c31fd8f6273578e6e66ddc80f5cf661d6) | 2026-03-21 | MisahSnow | Add rockets pickup and fix offline bot-win race completion |
-| [`e90a2d7`](https://github.com/MisahSnow/MagShift/commit/e90a2d79444c71876ab5eadb427a119930a7913d) | 2026-03-21 | MisahSnow | Add plasma cannon pickup with HUD ammo and debug support |
-| [`f214d76`](https://github.com/MisahSnow/MagShift/commit/f214d76585369107e6011b3a31ab6b5df0d2f81d) | 2026-03-21 | MisahSnow | Refine collision impacts and stabilize career menu planets |
-| [`6ddf315`](https://github.com/MisahSnow/MagShift/commit/6ddf31521a0790e88794abb3d0895a27ae3bfde2) | 2026-03-21 | MisahSnow | Add vehicle health and cyber warning HUD |
