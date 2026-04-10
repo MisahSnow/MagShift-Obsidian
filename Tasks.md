@@ -8,7 +8,6 @@ kanban-plugin: board
 
 - [ ] Add Vehicle Upgrade Visuals
 - [ ] Balance and add 3 Vehicles
-- [ ] Add [[Currency]]
 - [ ] Adjust Overcharge Boost Speed
 - [ ] Add [[Time Attack Mode]]
 - [ ] Add Elimination Mode
@@ -93,6 +92,7 @@ kanban-plugin: board
 - [ ] Add Vehicle Upgrades System to Garage
 - [ ] Add Third Vehicle
 - [ ] Add Visual Upgrade to Vortex
+- [ ] Add [[Currency]]
 
 %% kanban:settings
 ```
