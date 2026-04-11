@@ -7,11 +7,6 @@ This note is the prioritized refactor backlog for the current project codebase.
 - [ ] Refactor `HoverVehicleController`
 - [ ] Refactor `VehiclePickupInventory`
 - [ ] Refactor `HoverAIController`
-- [ ] Refactor `VehicleCatalogWindow`
-- [ ] Refactor `BuildReleaseWindow`
-- [ ] Refactor `CareerModeMenuController`
-- [ ] Refactor `GarageSceneController`
-- [ ] Refactor `ServerBrowserUIController`
 
 ## Task Definitions
 
@@ -27,18 +22,6 @@ This note is the prioritized refactor backlog for the current project codebase.
 ### `HoverAIController`
 
 - Split route following, combat behavior, avoidance, recovery, and debug instrumentation.
-
-### `CareerModeMenuController`
-
-- Split planet layout/animation, race menu presentation, snapshot lookup/loading, and race launch/session setup.
-
-### `GarageSceneController`
-
-- Split UI binding, modal flow/navigation, stat calculation, and preview spawning.
-
-### `ServerBrowserUIController`
-
-- Split lobby data/provider logic, filter/sort state, row rendering, and join/host actions.
 
 ## Completion Rule
 
